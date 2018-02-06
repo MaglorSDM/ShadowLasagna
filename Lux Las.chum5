@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <character>
-  <createdversion>5.197.1</createdversion>
-  <appversion>5.197.18</appversion>
+  <createdversion>5.197.25</createdversion>
+  <appversion>5.197.25</appversion>
   <gameedition>SR5</gameedition>
   <settings>default.xml</settings>
   <metatype>Elf</metatype>
@@ -16,39 +16,39 @@
   <walkalt>2/1/0</walkalt>
   <runalt>4/0/0</runalt>
   <sprintalt>2/1/0</sprintalt>
-  <prioritymetatype>D,1</prioritymetatype>
+  <prioritymetatype>C,2</prioritymetatype>
   <priorityattributes>A,4</priorityattributes>
   <priorityspecial>B,3</priorityspecial>
-  <priorityskills>C,2</priorityskills>
+  <priorityskills>D,1</priorityskills>
   <priorityresources>E,0</priorityresources>
   <prioritytalent>Mystic Adept</prioritytalent>
   <priorityskills>
     <priorityskill>Spellcasting</priorityskill>
-    <priorityskill>Counterspelling</priorityskill>
+    <priorityskill>Assensing</priorityskill>
   </priorityskills>
   <essenceatspecialstart>6.0</essenceatspecialstart>
-  <name />
+  <name>Lux Las</name>
   <mainmugshotindex>-1</mainmugshotindex>
   <mugshots />
-  <sex />
-  <age />
-  <eyes />
-  <height />
-  <weight />
-  <skin />
-  <hair />
+  <sex>männlich</sex>
+  <age>18</age>
+  <eyes>blau</eyes>
+  <height>179</height>
+  <weight>72</weight>
+  <skin>dunkelrot-braun</skin>
+  <hair>braun</hair>
   <description />
   <background />
   <concept />
   <notes />
   <alias>Lux Las</alias>
-  <playername />
+  <playername>Alex</playername>
   <gamenotes />
   <primaryarm>Left</primaryarm>
-  <karma>0</karma>
-  <totalkarma>0</totalkarma>
-  <special>0</special>
-  <totalspecial>0</totalspecial>
+  <karma>3</karma>
+  <totalkarma>3</totalkarma>
+  <special>3</special>
+  <totalspecial>3</totalspecial>
   <totalattributes>24</totalattributes>
   <contactpoints>15</contactpoints>
   <contactpointsused>15</contactpointsused>
@@ -194,22 +194,22 @@
       <metatypemin>1</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>6</metatypeaugmax>
-      <base>0</base>
+      <base>1</base>
       <karma>0</karma>
       <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>1</totalvalue>
+      <totalvalue>2</totalvalue>
     </attribute>
     <attribute>
       <name>MAG</name>
       <metatypemin>4</metatypemin>
       <metatypemax>6</metatypemax>
       <metatypeaugmax>6</metatypeaugmax>
-      <base>0</base>
+      <base>2</base>
       <karma>0</karma>
       <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>4</totalvalue>
+      <totalvalue>6</totalvalue>
     </attribute>
     <attribute>
       <name>MAGAdept</name>
@@ -280,11 +280,11 @@
   <physicalcmfilled>0</physicalcmfilled>
   <stuncmfilled>0</stuncmfilled>
   <newskills>
-    <skillptsmax>22</skillptsmax>
+    <skillptsmax>18</skillptsmax>
     <skillgrpsmax>0</skillgrpsmax>
     <skills>
       <skill>
-        <guid>f8e71806-11da-48c0-8de0-0692b1b3be36</guid>
+        <guid>da7e5c9c-8cd9-4705-813e-35b52f9dd79a</guid>
         <suid>a9fa961d-07e5-46da-8edc-403ae3e6cc75</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Physical Active</skillcategory>
@@ -293,14 +293,14 @@
         <notes />
         <specs>
           <spec>
-            <guid>15ad1954-13ad-49d2-aa8d-cfcf05c13825</guid>
+            <guid>78dd1b7d-9a3c-4248-ad9b-7c9bf858770a</guid>
             <name>Parkour</name>
             <free>False</free>
           </spec>
         </specs>
       </skill>
       <skill>
-        <guid>b97a8203-6277-493e-95dd-0611ec9ed504</guid>
+        <guid>376310c6-dfd7-483c-aecc-b55f0660c9ca</guid>
         <suid>fc89344f-daa6-438e-b61d-23f10dd13e44</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
@@ -309,25 +309,25 @@
         <notes />
       </skill>
       <skill>
-        <guid>95055ce0-46b0-40cf-bfd8-93bc8a4c372f</guid>
+        <guid>7b5d82cc-6dbe-414e-b05a-911926518d0e</guid>
         <suid>3db81bcc-264b-47e1-847c-06bdacd88973</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
-        <karma>0</karma>
-        <base>0</base>
-        <notes />
-      </skill>
-      <skill>
-        <guid>a61a1521-52e5-4258-a843-b802a069fbbd</guid>
-        <suid>74a68a9e-8c5b-4998-8dbb-08c1e768afc3</suid>
-        <isknowledge>False</isknowledge>
-        <skillcategory>Pseudo-Magical Active</skillcategory>
         <karma>0</karma>
         <base>1</base>
         <notes />
       </skill>
       <skill>
-        <guid>42210f96-092e-40bf-bbf2-0dd7b072c74c</guid>
+        <guid>49abaa5a-64b5-44ee-953c-ef579a193bc5</guid>
+        <suid>74a68a9e-8c5b-4998-8dbb-08c1e768afc3</suid>
+        <isknowledge>False</isknowledge>
+        <skillcategory>Pseudo-Magical Active</skillcategory>
+        <karma>0</karma>
+        <base>0</base>
+        <notes />
+      </skill>
+      <skill>
+        <guid>acd020f4-7737-4b35-8ed5-17498e21ba03</guid>
         <suid>59318078-e071-411b-9194-7222560e9f4a</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
@@ -336,7 +336,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>999dddf3-1489-464c-93da-97d263651b35</guid>
+        <guid>d6f3f527-ab8d-452d-a2a3-fca3f45ae8c2</guid>
         <suid>b7599a42-ceed-4558-b357-865aa3e317f5</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
@@ -345,7 +345,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>36666ed3-d2d6-4fa8-b84d-f4a34ea4f40e</guid>
+        <guid>e327f88b-8210-4efb-9aa0-3dfa2d18456c</guid>
         <suid>dfba7c09-3d95-43fd-be75-39b3e8b22cd3</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
@@ -354,7 +354,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>5298bc27-6045-4778-bc19-2cc62cc77c68</guid>
+        <guid>a60023f1-9b29-495b-b475-20b882537043</guid>
         <suid>ba624682-a5c0-4cf5-b47b-1021e6a1800d</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Technical Active</skillcategory>
@@ -363,7 +363,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>c8343bf8-ee94-4a7a-b5c6-43084241ffbf</guid>
+        <guid>754a2916-cdbe-4110-8dbd-62f4f95a36e0</guid>
         <suid>ae91a8a6-80e7-4f52-b9eb-21725a5528a4</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Vehicle Active</skillcategory>
@@ -372,7 +372,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>ad916876-8481-4e68-9f3a-ca8c1dd2fa52</guid>
+        <guid>19abc13a-c798-4db3-9b88-022fd14b20db</guid>
         <suid>bd4d977a-cbd4-4289-99bb-896caed6786a</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Technical Active</skillcategory>
@@ -381,7 +381,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>53b22cfb-a58b-4a6b-9c29-53313809835e</guid>
+        <guid>167f5904-1cfb-4cef-8ee6-3ccb31ff796c</guid>
         <suid>1c14bf0d-cc69-4126-9a95-1f2429c11aa5</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Technical Active</skillcategory>
@@ -390,7 +390,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>7b267a3c-b123-4d5c-8889-901eb5b136d1</guid>
+        <guid>1bb904c1-7ced-4676-a686-abbead79bea8</guid>
         <suid>9de43fad-b365-4e73-bc06-91dd571b858a</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Social Active</skillcategory>
@@ -399,7 +399,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>39fa40f3-fefd-403e-9659-b2d713a9521c</guid>
+        <guid>088f0eeb-fe87-4c8f-b3b0-d1ed7bc9d104</guid>
         <suid>2c8e5f20-e52d-4844-89e9-51b92dba47df</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Technical Active</skillcategory>
@@ -408,7 +408,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>6bfe2d9e-a84b-4fa4-9d35-f30e0419ac93</guid>
+        <guid>f3607284-5870-44f3-8289-1a43b0f02e5e</guid>
         <suid>3f93335c-49d6-4904-a97e-4c942ab05b59</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Physical Active</skillcategory>
@@ -417,7 +417,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>9614c932-a44d-4dd3-92d9-1a8e0667ca11</guid>
+        <guid>773a9b0b-2e65-4f8c-84b1-c526eae71222</guid>
         <suid>a9d9b686-bc4a-4347-b011-ff8f41455965</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
@@ -426,7 +426,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>ba2448f3-c77e-47a1-b4b1-136dbf09365b</guid>
+        <guid>1edd6f01-c0c8-4b55-828b-fed696c8f90a</guid>
         <suid>47cb1e8b-c285-4c54-9aaa-75305ad6dd4f</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Technical Active</skillcategory>
@@ -435,7 +435,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>38b1d6af-7211-4ccb-a3cf-944ee9572b30</guid>
+        <guid>9d3784f8-1660-4725-aafa-128ba1a21621</guid>
         <suid>5e5f2f7f-f63b-4f65-a65d-91b3d4523c6f</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Technical Active</skillcategory>
@@ -444,16 +444,16 @@
         <notes />
       </skill>
       <skill>
-        <guid>99004c1c-032e-4d58-9241-204741875a61</guid>
+        <guid>26bc227e-ae22-4ed5-aab4-b8568086a35e</guid>
         <suid>17fbaafa-8dbb-4f29-9244-5ae1cd4ac42f</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Physical Active</skillcategory>
         <karma>0</karma>
-        <base>1</base>
+        <base>0</base>
         <notes />
       </skill>
       <skill>
-        <guid>0c50f290-d4f3-4602-98e9-96054d08757e</guid>
+        <guid>aa3a4c20-c1f1-4036-839a-8d11fe2f8374</guid>
         <suid>27db6e2a-a49f-4232-b150-e676b8dacb52</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Physical Active</skillcategory>
@@ -462,7 +462,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>2ea00301-ab57-4fbb-816c-731f081fdd4c</guid>
+        <guid>ad9963ea-ea81-4f49-9242-88970b4c9d3a</guid>
         <suid>10d5c887-a1e5-4cca-8613-3a28f1aab810</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Vehicle Active</skillcategory>
@@ -471,16 +471,16 @@
         <notes />
       </skill>
       <skill>
-        <guid>0e276753-f26d-4603-8097-31606e792727</guid>
+        <guid>be6a2a2a-1ab1-4f45-8b8e-a68132cc6ed7</guid>
         <suid>955d9376-3066-469d-8670-5170c1d59020</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
         <karma>0</karma>
-        <base>1</base>
+        <base>0</base>
         <notes />
       </skill>
       <skill>
-        <guid>3adccea0-1ddf-4355-8c22-b1b392d9f5b0</guid>
+        <guid>f0dfa54e-7063-41cd-9201-14a973fa375c</guid>
         <suid>f510ccc3-cf95-4461-b2f7-e966daaa5a91</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Physical Active</skillcategory>
@@ -489,7 +489,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>391614f8-7fd9-42e2-8a81-5b55c96d342f</guid>
+        <guid>ae4aa02e-ecee-4fa7-b474-87594e700e14</guid>
         <suid>c9f52f97-a284-44a7-8af6-802dd3ed554f</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Technical Active</skillcategory>
@@ -498,7 +498,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>45c3fedc-4de7-42f9-a632-f57d40a6f6e0</guid>
+        <guid>73b6aea8-1adc-43fd-abcc-f3dc1025861f</guid>
         <suid>963a548d-c629-4a13-a3e3-31b085a42e20</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Social Active</skillcategory>
@@ -507,7 +507,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>e099c9a9-76a2-4af3-aa90-bed481ab1ec2</guid>
+        <guid>9cedf140-235a-43b1-a817-4ca88d1bc171</guid>
         <suid>b20acd11-f102-40f3-a641-e3c420fbdb91</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Social Active</skillcategory>
@@ -516,7 +516,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>a6ef37b6-f457-4075-bf13-0654d3d21d54</guid>
+        <guid>bb6c2c01-84e6-458f-9b00-cd832bbfc8c9</guid>
         <suid>58452cff-44ea-41c6-a554-28a869149b27</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Vehicle Active</skillcategory>
@@ -525,7 +525,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>8a1e7ccc-06a1-4bd4-b51b-ee0a4dffef10</guid>
+        <guid>1bd954c2-f50d-4565-8a9b-dfd6ba543f6e</guid>
         <suid>64088b25-de37-4d71-8800-4a430fde08af</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Combat Active</skillcategory>
@@ -534,7 +534,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>7f9e9e36-7d90-4015-9709-ce9e1d1db165</guid>
+        <guid>f5d7181b-fffc-485c-b8e0-ca4d748c4a52</guid>
         <suid>c2bb65f5-4a6b-49bf-9925-ef6434cb6929</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Technical Active</skillcategory>
@@ -543,7 +543,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>9fe815a5-1044-4655-9f8e-ca712d324fc0</guid>
+        <guid>44c4f5c5-f1ec-4a9a-b708-cec38e7d0768</guid>
         <suid>2f4c706f-5ac5-4774-8a45-3b4667989a20</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Technical Active</skillcategory>
@@ -552,7 +552,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>d17e7ddc-be5e-4a92-9a08-b8d3ab391822</guid>
+        <guid>aba9c7b9-5452-491b-bd29-90c9dcb70c03</guid>
         <suid>41e184e0-7273-403a-9300-fa29a1707bf0</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Technical Active</skillcategory>
@@ -561,7 +561,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>a0c45dba-ac63-4f14-880e-fa5cb163593d</guid>
+        <guid>66c60709-881e-41da-b3dd-39cb958a147a</guid>
         <suid>51e34c6c-b07f-45f4-8a5e-8f2b617ed32f</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
@@ -570,7 +570,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>b640e780-a00f-4672-9425-e0be1ad58dfe</guid>
+        <guid>a4274331-8f0b-4559-b586-c1d5b0cb6b25</guid>
         <suid>935621c5-d384-42f2-a740-1fa349fa85a1</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Technical Active</skillcategory>
@@ -579,16 +579,16 @@
         <notes />
       </skill>
       <skill>
-        <guid>1b65ba5b-9320-4ea5-8bfa-b799a4f03940</guid>
+        <guid>41713dfb-abaf-43fb-ad24-e183575bedde</guid>
         <suid>48763fa5-4b89-48c7-80ff-d0a2761de4c0</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Combat Active</skillcategory>
         <karma>0</karma>
-        <base>0</base>
+        <base>1</base>
         <notes />
       </skill>
       <skill>
-        <guid>490adbf3-83bf-470d-aaf8-ebbe9102d78a</guid>
+        <guid>fa877387-d8cc-45c1-878e-bf89b706c788</guid>
         <suid>cd9f6bf7-fa48-464b-9a8f-c7ce26713a72</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Combat Active</skillcategory>
@@ -597,7 +597,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>2438392a-659b-4074-bb5f-1fc66e4b64ce</guid>
+        <guid>d9e8f605-f983-4098-8ba6-404df17403f3</guid>
         <suid>9b386fe5-83b3-436f-9035-efd1c0f7a680</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Technical Active</skillcategory>
@@ -606,7 +606,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>a431bb74-59f0-4845-9786-de62c07d7c08</guid>
+        <guid>3035fae0-8603-4b0f-a511-c0b056797e6a</guid>
         <suid>1531b2d8-6116-4be4-87b0-232dba1fc447</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Physical Active</skillcategory>
@@ -615,7 +615,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>84b5b5b2-975e-47ed-9bf8-8d6afacaa550</guid>
+        <guid>f93e3e0b-f63e-46bc-9c24-a579fe6d8511</guid>
         <suid>b52f7575-eebf-41c4-938d-df3397b5ee68</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Technical Active</skillcategory>
@@ -624,7 +624,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>9f38809e-f8c2-42c2-81a4-8bded2ca156e</guid>
+        <guid>224ebf9c-29db-44c0-8a1c-063828dc7cec</guid>
         <suid>b8a24d87-465a-4365-9948-038fe1ac62c4</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Vehicle Active</skillcategory>
@@ -633,7 +633,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>8facbf35-9096-4e7c-8369-d186529d4260</guid>
+        <guid>7e1e5c9e-be44-46e7-9616-4950d062d1fe</guid>
         <suid>7143f979-aa48-4cc8-a29c-e010400e6e11</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Technical Active</skillcategory>
@@ -642,7 +642,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>03865d0a-b198-4b45-abfa-1622074b4095</guid>
+        <guid>382986e6-5500-4296-8a19-ef0e1bae1084</guid>
         <suid>938be691-4b3d-49a2-a673-bbf9924ce8f0</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Technical Active</skillcategory>
@@ -651,7 +651,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>779e6eab-d2fe-4fb6-9157-4f1bad7e7c10</guid>
+        <guid>8e663075-9f34-4e91-a1db-73d1a3aeda9d</guid>
         <suid>f8037e7f-d48b-452b-8f66-2e0c36677fea</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Technical Active</skillcategory>
@@ -660,7 +660,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>659ab009-d6d8-4e3c-8f74-e39e6efaec7f</guid>
+        <guid>ea53d922-3f06-465c-97ca-2f5eedf44be2</guid>
         <suid>adf31a50-b228-4e09-a09c-46ab9f5e59a1</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Combat Active</skillcategory>
@@ -669,7 +669,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>33366b06-3d87-48dd-a371-16b1bef1c2cf</guid>
+        <guid>02490727-6de6-4fa6-a38c-68bd3b213e86</guid>
         <suid>1537ca5c-fa93-4c05-b073-a2a0eed91b8e</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Combat Active</skillcategory>
@@ -678,7 +678,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>e2c01e7a-9e21-45f4-a79e-02ce706e1bed</guid>
+        <guid>e5def349-998c-47f0-a0f4-82a0ce5c99ee</guid>
         <suid>3ba9397e-f790-44ca-ae40-15a2356e348d</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Vehicle Active</skillcategory>
@@ -687,7 +687,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>7060c464-f8c3-475f-b137-c587394350d4</guid>
+        <guid>cdbc3336-de42-4c1f-8dd8-6a55a1b55098</guid>
         <suid>a6287e62-6a3b-43ce-b6e0-20f3655910e2</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
@@ -696,7 +696,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>effb2ab9-5204-4bfe-b972-c37218d05c84</guid>
+        <guid>dea3f93d-b0a9-4478-af6e-f73eeaa247c5</guid>
         <suid>1579818e-af85-47cd-8c9f-2e86e9dc19da</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Vehicle Active</skillcategory>
@@ -705,7 +705,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>fdb055d5-14a6-46a2-9fce-74c81c406832</guid>
+        <guid>2a6f5a67-35b4-45ae-a1c9-b0fc09e624f9</guid>
         <suid>9cff9aa7-d092-4f89-8b7b-3ab835818874</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Physical Active</skillcategory>
@@ -714,14 +714,14 @@
         <notes />
         <specs>
           <spec>
-            <guid>083ea5be-76bc-4264-87bc-9f3639969264</guid>
+            <guid>a377d0d9-a91a-4fe5-9592-20d5ef831614</guid>
             <name>Urban</name>
             <free>False</free>
           </spec>
         </specs>
       </skill>
       <skill>
-        <guid>5d0b12bb-7dda-4005-a97c-4ac6166a58fd</guid>
+        <guid>cfe4e4ae-cd5e-4d91-b64d-3dcbf8389352</guid>
         <suid>09fbc992-9fad-4f2d-ab56-725bac943dc6</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Technical Active</skillcategory>
@@ -730,7 +730,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>b7e38cfb-6338-4623-8d0d-cae4cb71a9de</guid>
+        <guid>d901e5a0-f32b-4e50-9beb-ac4713358233</guid>
         <suid>788b387b-ee41-4e6a-bf22-481a8cc4cf9f</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Combat Active</skillcategory>
@@ -739,14 +739,14 @@
         <notes />
         <specs>
           <spec>
-            <guid>e1e1f05b-7f53-49d5-a3ec-ae0200f54b77</guid>
+            <guid>643ab1f2-3927-436a-a9f8-79e3ac128126</guid>
             <name>Submachine Guns</name>
             <free>False</free>
           </spec>
         </specs>
       </skill>
       <skill>
-        <guid>270e25da-e3bc-43cb-a122-f576f1d6a392</guid>
+        <guid>c6ae5d30-efd2-4afe-9ac5-6aae2f93e51f</guid>
         <suid>64841e6e-9487-4b63-80a1-dcad6eb78179</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Combat Active</skillcategory>
@@ -755,7 +755,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>7ddefb2c-7376-4de4-b1af-685956705ebc</guid>
+        <guid>f3075cc3-88fe-4a03-b802-608a32df0023</guid>
         <suid>0dbcb9cd-f824-4b5d-a387-90d33318b04c</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Physical Active</skillcategory>
@@ -764,7 +764,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>2f4e995e-3aa9-4b2e-ae4f-3d7ffe0a8154</guid>
+        <guid>32cc0b19-564f-43f5-b7cc-babd1c727d25</guid>
         <suid>48cc79be-f75e-4fe6-8721-7864c9f231f6</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Technical Active</skillcategory>
@@ -773,7 +773,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>90c9f150-1a65-4f1c-a15a-69d806fc0876</guid>
+        <guid>b5c49809-c2fe-43ed-8819-e4ec05fa9cab</guid>
         <suid>b693f3bf-48dc-4570-9743-d94d14ee698b</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Technical Active</skillcategory>
@@ -782,7 +782,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>eb110642-c03b-4ee1-9f87-08ff948fd347</guid>
+        <guid>7894a457-0006-4e50-8090-3ffca7eda514</guid>
         <suid>276877e1-5cdf-4e95-befd-13c1abb5ae02</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Technical Active</skillcategory>
@@ -791,23 +791,23 @@
         <notes />
       </skill>
       <skill>
-        <guid>d58b735b-ae7e-4dc4-82b7-b1e08e6ce129</guid>
+        <guid>5f14f7fc-8663-4af5-848d-d701dc5434bc</guid>
         <suid>c4367a39-4065-4b1d-aa62-e9dce377e452</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
         <karma>0</karma>
-        <base>2</base>
+        <base>0</base>
         <notes />
         <specs>
           <spec>
-            <guid>c85273e9-a0b6-483f-9ee5-2f5c3681ed2c</guid>
+            <guid>b94c8f2e-0d26-46bf-8a98-4760ad96d9d7</guid>
             <name>Combat</name>
             <free>False</free>
           </spec>
         </specs>
       </skill>
       <skill>
-        <guid>951941c9-f7bb-408f-a637-5bdc061ac2ab</guid>
+        <guid>ba66dc0a-32bc-452f-8908-8d181fb072ee</guid>
         <suid>7ed2f3e0-a791-4cb7-ba3e-ac785fdc3d7e</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Physical Active</skillcategory>
@@ -816,7 +816,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>78c80cf1-7173-4c42-8f08-7e0d228037f2</guid>
+        <guid>dba312df-ce7a-446b-a9d5-7782371a1746</guid>
         <suid>89ee1730-053a-400f-a13a-4fbadae015f0</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Physical Active</skillcategory>
@@ -825,7 +825,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>1a64c5bb-b75e-46c4-8b1e-ada3941f5df9</guid>
+        <guid>07acba49-8b7b-442d-8944-8ea92ef37009</guid>
         <suid>23c3320c-5010-4b2e-ac46-76f0a86af0b9</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Physical Active</skillcategory>
@@ -834,7 +834,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>ac86aa62-7b36-4ec7-bb57-418173cfb8ae</guid>
+        <guid>c73a86b0-386f-4da3-a318-469ea0cf15e9</guid>
         <suid>e09e5aa7-e496-41a2-97ce-17f577361888</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Physical Active</skillcategory>
@@ -843,7 +843,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>230585ca-40c0-48b3-90e8-fc7e1f72a4b1</guid>
+        <guid>e7cc10ec-7630-45d4-b326-f014ce3c9620</guid>
         <suid>3b34b209-00be-42b8-b4ac-cc7dea08af8a</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Social Active</skillcategory>
@@ -852,7 +852,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>c147d305-39eb-4d38-81f8-e8b8828403af</guid>
+        <guid>49b9a4e8-eacf-4d6a-9c55-ad23a9db884b</guid>
         <suid>9a2d9175-d445-45ca-842d-90223ad13f05</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Magical Active</skillcategory>
@@ -861,7 +861,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>c47fad14-b049-4d25-890a-e1b4ddc8966c</guid>
+        <guid>0a1fb937-c028-45e3-baf0-cc9a215cca51</guid>
         <suid>729c9cee-ef8f-492d-aa7f-17ec1bc3816e</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Social Active</skillcategory>
@@ -870,7 +870,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>3a6dab97-2509-4449-adba-15ae6988712f</guid>
+        <guid>30243ed6-ffd0-4c95-9f03-e708bfe83536</guid>
         <suid>9b2416b2-3e2b-4dd6-ab9d-530f493c1c22</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Physical Active</skillcategory>
@@ -879,7 +879,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>483b6e26-9bae-41dc-9d10-f7cec76b4574</guid>
+        <guid>0e69c9b6-8d19-426a-9b70-dcbc5f12bdbc</guid>
         <suid>e7e5a43f-9762-4863-86dc-3fd7799e53a2</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Social Active</skillcategory>
@@ -888,7 +888,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>72b12e22-3671-435d-81b7-0671d0758c4b</guid>
+        <guid>c8528fea-bc3f-4b54-bcfb-ee901dbb0a77</guid>
         <suid>53f96d6a-363b-4c14-be1d-68e74930c67b</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Social Active</skillcategory>
@@ -897,7 +897,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>78d461d4-2d49-482e-aa57-bb3acec1474f</guid>
+        <guid>d8bfaabd-947e-46cf-b7b7-35d414d55bc7</guid>
         <suid>ada6d9b2-e451-4289-be45-7085fa34a51a</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Technical Active</skillcategory>
@@ -906,7 +906,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>f33b4815-348e-4b49-a593-0d3b18ec9726</guid>
+        <guid>77458867-d5c1-49b9-a279-ab40696ee404</guid>
         <suid>4fcd40cb-4b02-4b7e-afcb-f44d46cd5706</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Combat Active</skillcategory>
@@ -915,7 +915,7 @@
         <notes />
       </skill>
       <skill>
-        <guid>5c76e793-e09b-4343-8d23-ef1e94749278</guid>
+        <guid>0e195545-56c2-4e5f-a29e-39b43218d0fb</guid>
         <suid>04e1eb3e-e82d-485b-a7fd-1e677df2a070</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Physical Active</skillcategory>
@@ -924,14 +924,14 @@
         <notes />
         <specs>
           <spec>
-            <guid>1bb3e3cf-4206-4f60-81bd-75f7a5a0498c</guid>
+            <guid>1a0f3c6b-081a-4461-b23c-a24ffe7a60e2</guid>
             <name>Searching</name>
             <free>False</free>
           </spec>
         </specs>
       </skill>
       <skill>
-        <guid>b945cfae-b30a-4d1b-a3a4-976a9f80e4bb</guid>
+        <guid>fd799e0d-3513-4e85-91ac-a03ce88ab842</guid>
         <suid>867a6fa0-7d98-4cde-83a4-b33dd39de08e</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Combat Active</skillcategory>
@@ -940,27 +940,27 @@
         <notes />
       </skill>
       <skill>
-        <guid>f66f206d-b570-41a4-921e-da56023c767f</guid>
+        <guid>a02b77a0-e955-4617-b747-b7d4139982ec</guid>
         <suid>6d7f48d3-84a1-4fce-90d3-58d566f70fa6</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Social Active</skillcategory>
         <karma>0</karma>
-        <base>1</base>
+        <base>0</base>
         <notes />
       </skill>
     </skills>
     <knoskills>
       <skill>
-        <guid>d3bc6dde-7963-4382-8fff-f39d595efac9</guid>
+        <guid>005e6af3-ca69-471b-aeb4-f23c687c2c00</guid>
         <suid>0af06344-3637-4160-813b-a33dda2d16aa</suid>
         <isknowledge>True</isknowledge>
         <skillcategory>Street</skillcategory>
         <karma>0</karma>
-        <base>0</base>
+        <base>4</base>
         <notes />
         <specs>
           <spec>
-            <guid>a3facd27-65db-46ce-9f43-26710fd17fba</guid>
+            <guid>31d6e01a-5a8f-4a77-ba71-56a61fe72550</guid>
             <name>Street Rumors</name>
             <free>False</free>
           </spec>
@@ -969,34 +969,34 @@
         <type>Street</type>
       </skill>
       <skill>
-        <guid>eae9ac7d-8fe7-45e2-ac87-47c369f0fe9c</guid>
-        <suid>ac2d2cb7-e602-42cc-bc53-9bb45588244c</suid>
+        <guid>7007f275-29d4-4960-9296-80f9d1fa4f7f</guid>
+        <suid>1d68ed58-91ff-495a-a456-2bc04d82a3b7</suid>
         <isknowledge>True</isknowledge>
-        <skillcategory>Professional</skillcategory>
+        <skillcategory>Street</skillcategory>
         <karma>0</karma>
-        <base>0</base>
+        <base>1</base>
         <notes />
         <specs>
           <spec>
-            <guid>164cb54e-18c6-4e8f-a832-91d7604fb684</guid>
-            <name>Reconnaissance</name>
+            <guid>cf3115a4-789b-4e28-9d67-8f0ef496cbe9</guid>
+            <name>Physical</name>
             <free>False</free>
           </spec>
         </specs>
-        <name>Strategy</name>
-        <type>Professional</type>
+        <name>Lone Star Procedures</name>
+        <type>Street</type>
       </skill>
       <skill>
-        <guid>1fd840de-58e2-4cbd-9196-58394290f882</guid>
+        <guid>071fead4-cd3d-457e-bbd3-e715fc54c8dd</guid>
         <suid>49f3497e-0111-42f3-8e36-6119a51995cd</suid>
         <isknowledge>True</isknowledge>
         <skillcategory>Street</skillcategory>
         <karma>0</karma>
-        <base>0</base>
+        <base>3</base>
         <notes />
         <specs>
           <spec>
-            <guid>952541bc-b4a4-4e48-b575-fbce4b4f1f1b</guid>
+            <guid>0394f029-f535-4a54-a675-a3dd65695bb5</guid>
             <name>Sorcery</name>
             <free>False</free>
           </spec>
@@ -1005,39 +1005,21 @@
         <type>Street</type>
       </skill>
       <skill>
-        <guid>8bf282ed-5492-4dec-85eb-6c36b4c1c9d2</guid>
+        <guid>e065e2c8-121c-4f11-91da-2966bcdaf0e4</guid>
         <suid>5c3ebb6f-d075-4486-8900-d7a19bae958f</suid>
         <isknowledge>True</isknowledge>
         <skillcategory>Street</skillcategory>
         <karma>0</karma>
-        <base>0</base>
+        <base>2</base>
         <notes />
         <specs>
           <spec>
-            <guid>d26a8635-f872-4ad0-a2df-b7f50d873b5c</guid>
+            <guid>3d1f3b0f-26bb-42d9-918d-893561f7af7e</guid>
             <name>Black Magic</name>
             <free>False</free>
           </spec>
         </specs>
         <name>Underworld</name>
-        <type>Street</type>
-      </skill>
-      <skill>
-        <guid>e16d4af2-17fc-47e6-b7d1-be0e31ba0d5e</guid>
-        <suid>1d68ed58-91ff-495a-a456-2bc04d82a3b7</suid>
-        <isknowledge>True</isknowledge>
-        <skillcategory>Street</skillcategory>
-        <karma>0</karma>
-        <base>0</base>
-        <notes />
-        <specs>
-          <spec>
-            <guid>ca8b79d8-6ac8-4661-a77f-fe5bad3f096e</guid>
-            <name>Physical</name>
-            <free>False</free>
-          </spec>
-        </specs>
-        <name>Lone Star Procedures</name>
         <type>Street</type>
       </skill>
     </knoskills>
@@ -1046,85 +1028,85 @@
       <group>
         <karma>0</karma>
         <base>0</base>
-        <id>c5a941a7-86eb-445f-b27c-da26a16ac922</id>
+        <id>3eb533ed-0f97-4e9e-b3f6-0abfc421a412</id>
         <name>Enchanting</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
-        <id>76f21795-97e4-453b-9c7f-d27a39055d2c</id>
+        <id>2ef1bab4-48b0-4fa4-8d24-61b62fb377e2</id>
         <name>Acting</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
-        <id>d35915a3-d762-4632-bdcd-4ea155cb3687</id>
+        <id>52998b75-7fd5-4fa1-a8cf-851470d082f5</id>
         <name>Outdoors</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
-        <id>2ea60a34-86b5-4eca-bbf9-ce83603ad898</id>
+        <id>cfe2a619-94a7-45ed-bcc9-8241e3e02515</id>
         <name>Close Combat</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
-        <id>5474713b-115d-4fe0-bca5-c9547c66eaf0</id>
+        <id>70604810-cdd1-45bf-b2cd-3ebfa3974835</id>
         <name>Engineering</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
-        <id>3aad8f3d-a152-4827-bcf1-1c5c3cb97675</id>
+        <id>3282376b-d61a-4d3c-a5e8-c0bf54380f07</id>
         <name>Sorcery</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
-        <id>fb0fca75-81a3-4994-ae9d-2c770960bf20</id>
+        <id>80dfda0f-923d-4fe8-8dc8-71c65486577b</id>
         <name>Stealth</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
-        <id>18d3f853-b9cf-48f8-990f-f1556a3ea42b</id>
+        <id>3cef332b-612b-4b71-811a-ff02307c4e11</id>
         <name>Firearms</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
-        <id>257ccfdc-a419-4513-9319-3f218b4a3932</id>
+        <id>f537ef4c-daba-4b45-a9b1-dae00fcb2331</id>
         <name>Electronics</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
-        <id>d7b15ec5-6e92-48fe-9601-1dcba2c32728</id>
+        <id>0c59e29d-5f48-4bad-a60e-9c4317a29097</id>
         <name>Influence</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
-        <id>6cf34758-6329-4aa1-a52f-6ed5f3287481</id>
+        <id>964ccf2c-70c9-4c65-b520-7aa0c7b00000</id>
         <name>Cracking</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
-        <id>99a22b4e-33db-4a71-ab59-2b460ada3db0</id>
+        <id>9006d1a1-cc50-4108-a32e-21e02b028df7</id>
         <name>Biotech</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
-        <id>e955e00a-e7c1-443e-a131-548b7d3c61a4</id>
+        <id>b848f224-a09a-46f6-8b04-0dd4a73e2aea</id>
         <name>Conjuring</name>
       </group>
       <group>
         <karma>0</karma>
         <base>0</base>
-        <id>45665990-6cb9-4e14-8167-5eea4c4606a9</id>
+        <id>e8e268bb-8d67-4384-8201-cb520e419d74</id>
         <name>Athletics</name>
       </group>
     </groups>
@@ -1132,7 +1114,7 @@
   <contacts />
   <spells>
     <spell>
-      <guid>e14e6c07-a456-4ca4-a5ba-1dad89d73fa7</guid>
+      <guid>b9533615-fc4b-409a-9210-5fa2f3cd01d8</guid>
       <name>Heal</name>
       <descriptors>Essence</descriptors>
       <category>Health</category>
@@ -1154,7 +1136,7 @@
       <grade>0</grade>
     </spell>
     <spell>
-      <guid>20075728-1c9c-44ee-aa73-03a8302f8f73</guid>
+      <guid>2bac3a46-411d-4eba-9fa5-20dd18d9a416</guid>
       <name>Stabilize</name>
       <descriptors />
       <category>Health</category>
@@ -1176,7 +1158,51 @@
       <grade>0</grade>
     </spell>
     <spell>
-      <guid>bb9d48e9-dae5-4d06-bc9e-c9d9e7988a05</guid>
+      <guid>716594ed-fc23-46a6-93a6-281511446c5f</guid>
+      <name>Levitate</name>
+      <descriptors>Physical</descriptors>
+      <category>Manipulation</category>
+      <type>P</type>
+      <range>LOS</range>
+      <damage>0</damage>
+      <duration>S</duration>
+      <dv>F-2</dv>
+      <limited>False</limited>
+      <extended>False</extended>
+      <alchemical>False</alchemical>
+      <source>SR5</source>
+      <page>293</page>
+      <extra />
+      <notes />
+      <freebonus>False</freebonus>
+      <usesunarmed>False</usesunarmed>
+      <improvementsource>Spell</improvementsource>
+      <grade>0</grade>
+    </spell>
+    <spell>
+      <guid>8f3e6a44-3d80-4a57-a6e0-ac064a7a10f0</guid>
+      <name>Powerbolt</name>
+      <descriptors>Direct</descriptors>
+      <category>Combat</category>
+      <type>P</type>
+      <range>LOS</range>
+      <damage>P</damage>
+      <duration>I</duration>
+      <dv>F-3</dv>
+      <limited>False</limited>
+      <extended>False</extended>
+      <alchemical>False</alchemical>
+      <source>SR5</source>
+      <page>284</page>
+      <extra />
+      <notes />
+      <freebonus>False</freebonus>
+      <usesunarmed>False</usesunarmed>
+      <improvementsource>Spell</improvementsource>
+      <grade>0</grade>
+    </spell>
+    <spell>
+      <guid>4426a9cd-a7a6-417d-9f29-1969f468f12f</guid>
       <name>Knockout</name>
       <descriptors>Direct</descriptors>
       <category>Combat</category>
@@ -1198,20 +1224,20 @@
       <grade>0</grade>
     </spell>
     <spell>
-      <guid>ecb1c16e-65e7-45e1-a745-748695240396</guid>
-      <name>Lightning Bolt</name>
-      <descriptors>Indirect, Elemental</descriptors>
-      <category>Combat</category>
+      <guid>85fc2410-0c41-4c25-9bd8-35926bf101b6</guid>
+      <name>Armor</name>
+      <descriptors>Physical</descriptors>
+      <category>Manipulation</category>
       <type>P</type>
       <range>LOS</range>
-      <damage>P</damage>
-      <duration>I</duration>
-      <dv>F-3</dv>
+      <damage>0</damage>
+      <duration>S</duration>
+      <dv>F-2</dv>
       <limited>False</limited>
       <extended>False</extended>
       <alchemical>False</alchemical>
       <source>SR5</source>
-      <page>284</page>
+      <page>292</page>
       <extra />
       <notes />
       <freebonus>False</freebonus>
@@ -1220,7 +1246,7 @@
       <grade>0</grade>
     </spell>
     <spell>
-      <guid>5d09e58c-20c4-406c-ae95-538e28b36451</guid>
+      <guid>b3d2fa6e-b6b2-4081-ad60-a2e7a4dfd2e3</guid>
       <name>Fireball</name>
       <descriptors>Indirect, Elemental, Area</descriptors>
       <category>Combat</category>
@@ -1241,50 +1267,6 @@
       <improvementsource>Spell</improvementsource>
       <grade>0</grade>
     </spell>
-    <spell>
-      <guid>9c58c008-4c7a-4282-9092-9a9088f8d3de</guid>
-      <name>Light</name>
-      <descriptors>Environmental, Area</descriptors>
-      <category>Manipulation</category>
-      <type>P</type>
-      <range>LOS (A)</range>
-      <damage>0</damage>
-      <duration>S</duration>
-      <dv>F-4</dv>
-      <limited>False</limited>
-      <extended>False</extended>
-      <alchemical>False</alchemical>
-      <source>SR5</source>
-      <page>293</page>
-      <extra />
-      <notes />
-      <freebonus>False</freebonus>
-      <usesunarmed>False</usesunarmed>
-      <improvementsource>Spell</improvementsource>
-      <grade>0</grade>
-    </spell>
-    <spell>
-      <guid>ecc7bd9a-5c57-4f9e-b08d-f95ee35026c6</guid>
-      <name>Levitate</name>
-      <descriptors>Physical</descriptors>
-      <category>Manipulation</category>
-      <type>P</type>
-      <range>LOS</range>
-      <damage>0</damage>
-      <duration>S</duration>
-      <dv>F-2</dv>
-      <limited>False</limited>
-      <extended>False</extended>
-      <alchemical>False</alchemical>
-      <source>SR5</source>
-      <page>293</page>
-      <extra />
-      <notes />
-      <freebonus>False</freebonus>
-      <usesunarmed>False</usesunarmed>
-      <improvementsource>Spell</improvementsource>
-      <grade>0</grade>
-    </spell>
   </spells>
   <foci />
   <stackedfoci />
@@ -1298,7 +1280,7 @@
   <weapons>
     <weapon>
       <sourceid>63dcfdb6-bbd9-4a58-bbf4-cd35f7614fdc</sourceid>
-      <guid>3500adc5-087e-44c6-98dd-4ead58152037</guid>
+      <guid>8582cabc-697b-4648-9e55-e50b2e9d65c6</guid>
       <name>Unarmed Attack</name>
       <category>Unarmed</category>
       <type>Melee</type>
@@ -1325,7 +1307,7 @@
       <suppressive>20</suppressive>
       <source>SR5</source>
       <page>132</page>
-      <parentid>0704adc5-5136-4cd9-aeb2-fbf1acdc3119</parentid>
+      <parentid>aa960aeb-a6c4-4d03-8b11-83ab7818627b</parentid>
       <allowaccessory>False</allowaccessory>
       <weaponname />
       <included>True</included>
@@ -1359,7 +1341,7 @@
   <cyberwares />
   <qualities>
     <quality>
-      <guid>31806f40-161b-4252-a607-ef1610530f0a</guid>
+      <guid>dc746263-3d80-4949-a0cd-af617500de41</guid>
       <name>Low-Light Vision</name>
       <extra />
       <bp>4</bp>
@@ -1383,7 +1365,7 @@
       <id>8ec5c9bb-aeb9-42f2-a436-a60f764adfe4</id>
     </quality>
     <quality>
-      <guid>e116e618-0f73-4678-ad71-6f76c1ffda06</guid>
+      <guid>94d73018-6ad7-4734-8a9c-95117f9b62ab</guid>
       <name>Mystic Adept</name>
       <extra />
       <bp>35</bp>
@@ -1415,32 +1397,8 @@
       <id>9d53e1e4-3f31-40cb-bfbe-4b94f5ba757e</id>
     </quality>
     <quality>
-      <guid>33513755-f822-4bdf-b533-1a45d0d46335</guid>
-      <name>Human-Looking</name>
-      <extra />
-      <bp>6</bp>
-      <implemented>True</implemented>
-      <contributetolimit>True</contributetolimit>
-      <doublecareer>True</doublecareer>
-      <canbuywithspellpoints>False</canbuywithspellpoints>
-      <metagenetic>False</metagenetic>
-      <print>True</print>
-      <qualitytype>Positive</qualitytype>
-      <qualitysource>Selected</qualitysource>
-      <mutant>False</mutant>
-      <source>SR5</source>
-      <page>75</page>
-      <sourcename />
-      <bonus>
-      </bonus>
-      <firstlevelbonus>
-      </firstlevelbonus>
-      <notes />
-      <id>2844e64e-f271-4ca7-bd58-0860b2db56c9</id>
-    </quality>
-    <quality>
-      <guid>53bc06dd-adce-4586-8dfb-0e3e69456c23</guid>
-      <name>Catlike</name>
+      <guid>de05b59d-91e0-4fbb-8db5-51c41a61ce22</guid>
+      <name>Natural Athlete</name>
       <extra />
       <bp>7</bp>
       <implemented>True</implemented>
@@ -1451,25 +1409,55 @@
       <print>True</print>
       <qualitytype>Positive</qualitytype>
       <qualitysource>Selected</qualitysource>
-      <mutant>True</mutant>
+      <mutant>False</mutant>
       <source>SR5</source>
-      <page>72</page>
+      <page>76</page>
       <sourcename />
       <bonus>
         <specificskill>
-          <name>Sneaking</name>
+          <name>Running</name>
+          <bonus>2</bonus>
+        </specificskill>
+        <specificskill>
+          <name>Gymnastics</name>
           <bonus>2</bonus>
         </specificskill>
       </bonus>
       <firstlevelbonus>
       </firstlevelbonus>
       <notes />
-      <id>84305e09-f8d5-4a82-8257-0119b8c3f926</id>
+      <id>225f0d31-8c03-4283-9a22-558ab01a6c47</id>
+    </quality>
+    <quality>
+      <guid>21de5fdb-90c4-4966-9594-f651267ec064</guid>
+      <name>Quick Healer</name>
+      <extra />
+      <bp>3</bp>
+      <implemented>True</implemented>
+      <contributetolimit>True</contributetolimit>
+      <doublecareer>True</doublecareer>
+      <canbuywithspellpoints>False</canbuywithspellpoints>
+      <metagenetic>False</metagenetic>
+      <print>True</print>
+      <qualitytype>Positive</qualitytype>
+      <qualitysource>Selected</qualitysource>
+      <mutant>False</mutant>
+      <source>SR5</source>
+      <page>77</page>
+      <sourcename />
+      <bonus>
+        <physicalcmrecovery>2</physicalcmrecovery>
+        <stuncmrecovery>2</stuncmrecovery>
+      </bonus>
+      <firstlevelbonus>
+      </firstlevelbonus>
+      <notes />
+      <id>291efdb6-a8b8-49ce-b2be-72f9d3f8a243</id>
     </quality>
   </qualities>
   <lifestyles>
     <lifestyle>
-      <guid>6ae391a5-b780-4c3d-a176-3cd99ccfab40</guid>
+      <guid>2b85deff-db7a-4c49-8a26-b60421e68de5</guid>
       <name>Strasse</name>
       <cost>0</cost>
       <dice>1</dice>
@@ -1493,7 +1481,7 @@
       <page>369</page>
       <trustfund>False</trustfund>
       <primarytenant>False</primarytenant>
-      <type>Advanced</type>
+      <type>Standard</type>
       <increment>Month</increment>
       <sourceid>559653df-a9af-44e2-9e04-3044c1d1b421</sourceid>
       <lifestylequalities />
@@ -1513,7 +1501,7 @@
       <unique>enableattribute</unique>
       <target />
       <improvedname>MAG</improvedname>
-      <sourcename>e116e618-0f73-4678-ad71-6f76c1ffda06</sourcename>
+      <sourcename>94d73018-6ad7-4734-8a9c-95117f9b62ab</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
@@ -1537,7 +1525,7 @@
       <unique>enabletab</unique>
       <target />
       <improvedname>Magician</improvedname>
-      <sourcename>e116e618-0f73-4678-ad71-6f76c1ffda06</sourcename>
+      <sourcename>94d73018-6ad7-4734-8a9c-95117f9b62ab</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
@@ -1561,7 +1549,7 @@
       <unique>enabletab</unique>
       <target />
       <improvedname>Adept</improvedname>
-      <sourcename>e116e618-0f73-4678-ad71-6f76c1ffda06</sourcename>
+      <sourcename>94d73018-6ad7-4734-8a9c-95117f9b62ab</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
@@ -1584,7 +1572,7 @@
     <improvement>
       <target />
       <improvedname>Magician</improvedname>
-      <sourcename>e116e618-0f73-4678-ad71-6f76c1ffda06</sourcename>
+      <sourcename>94d73018-6ad7-4734-8a9c-95117f9b62ab</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
@@ -1607,7 +1595,7 @@
     <improvement>
       <target />
       <improvedname>Spellcasting</improvedname>
-      <sourcename>Heritage</sourcename>
+      <sourcename />
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
@@ -1629,8 +1617,8 @@
     </improvement>
     <improvement>
       <target />
-      <improvedname>Counterspelling</improvedname>
-      <sourcename>Heritage</sourcename>
+      <improvedname>Assensing</improvedname>
+      <sourcename />
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
@@ -1652,8 +1640,8 @@
     </improvement>
     <improvement>
       <target />
-      <improvedname>Sneaking</improvedname>
-      <sourcename>53bc06dd-adce-4586-8dfb-0e3e69456c23</sourcename>
+      <improvedname>Running</improvedname>
+      <sourcename>de05b59d-91e0-4fbb-8db5-51c41a61ce22</sourcename>
       <min>0</min>
       <max>0</max>
       <aug>0</aug>
@@ -1673,12 +1661,96 @@
       <order>0</order>
       <notes />
     </improvement>
+    <improvement>
+      <target />
+      <improvedname>Gymnastics</improvedname>
+      <sourcename>de05b59d-91e0-4fbb-8db5-51c41a61ce22</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>Skill</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>21de5fdb-90c4-4966-9594-f651267ec064</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>PhysicalCMRecovery</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <target />
+      <improvedname />
+      <sourcename>21de5fdb-90c4-4966-9594-f651267ec064</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>StunCMRecovery</improvementttype>
+      <improvementsource>Quality</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
   </improvements>
   <mentorspirits />
   <expenses>
     <expense>
-      <guid>c46d5b43-6be2-4616-84fc-9236b4fd2f6e</guid>
-      <date>2018-01-31T23:41:18</date>
+      <guid>c74647fc-f4f1-4b2e-9b13-5b5b2ad77dcb</guid>
+      <date>2018-02-06T23:02:28</date>
+      <amount>3</amount>
+      <reason>Starting Karma</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>6271b613-d6f3-4558-8b65-a755f6f86773</guid>
+      <date>2018-02-06T23:02:28</date>
       <amount>5020</amount>
       <reason>Starting Nuyen</reason>
       <type>Nuyen</type>
