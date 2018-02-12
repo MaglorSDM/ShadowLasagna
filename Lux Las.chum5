@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <character>
   <createdversion>5.197.25</createdversion>
-  <appversion>5.197.25</appversion>
+  <appversion>5.197.26</appversion>
   <gameedition>SR5</gameedition>
   <settings>default.xml</settings>
   <metatype>Elf</metatype>
@@ -45,8 +45,8 @@
   <playername>Alex</playername>
   <gamenotes />
   <primaryarm>Left</primaryarm>
-  <karma>3</karma>
-  <totalkarma>3</totalkarma>
+  <karma>0</karma>
+  <totalkarma>6</totalkarma>
   <special>3</special>
   <totalspecial>3</totalspecial>
   <totalattributes>24</totalattributes>
@@ -62,7 +62,7 @@
   <burntstreetcred>0</burntstreetcred>
   <created>True</created>
   <maxavail>10</maxavail>
-  <nuyen>5020</nuyen>
+  <nuyen>1389.50</nuyen>
   <startingnuyen>6000</startingnuyen>
   <adeptwaydiscount>0</adeptwaydiscount>
   <sumtoten>10</sumtoten>
@@ -1276,7 +1276,34 @@
   <aiprograms />
   <martialarts />
   <limitmodifiers />
-  <armors />
+  <armors>
+    <armor>
+      <sourceid>36a4cd30-c32c-44d0-847a-0c15fb51072a</sourceid>
+      <guid>a18f6d6b-d5a4-4a83-ac99-dedf876a4c88</guid>
+      <name>Armor Jacket</name>
+      <category>Armor</category>
+      <armor>12</armor>
+      <armoroverride />
+      <armorcapacity>12</armorcapacity>
+      <avail>2</avail>
+      <cost>1000</cost>
+      <source>SR5</source>
+      <page>437</page>
+      <armorname />
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <extra />
+      <damage>0</damage>
+      <rating>0</rating>
+      <rating>0</rating>
+      <armormods />
+      <bonus />
+      <wirelessbonus />
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+    </armor>
+  </armors>
   <weapons>
     <weapon>
       <sourceid>63dcfdb6-bbd9-4a58-bbf4-cd35f7614fdc</sourceid>
@@ -1314,6 +1341,124 @@
       <installed>True</installed>
       <requireammo>True</requireammo>
       <accuracy>Physical</accuracy>
+      <mount />
+      <extramount />
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+    </weapon>
+    <weapon>
+      <sourceid>a92933cb-0c81-4b54-aeb1-ddc24836775d</sourceid>
+      <guid>2259eafe-c0bd-42e6-a471-47f6c024a43e</guid>
+      <name>Knife (Survival Kit)</name>
+      <category>Blades</category>
+      <type>Melee</type>
+      <spec>Knives</spec>
+      <spec2 />
+      <reach>0</reach>
+      <damage>(STR+1)P</damage>
+      <ap>-1</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <cyberware>False</cyberware>
+      <ammocategory />
+      <firingmode>Skill</firingmode>
+      <clips />
+      <conceal>-2</conceal>
+      <avail>0</avail>
+      <cost>0</cost>
+      <useskill />
+      <range />
+      <alternaterange />
+      <rangemultiply>1</rangemultiply>
+      <fullburst>10</fullburst>
+      <suppressive>20</suppressive>
+      <source>SR5</source>
+      <page>422</page>
+      <parentid>ddd59fc8-5f4d-472e-bfff-01e42b6d2170</parentid>
+      <allowaccessory>True</allowaccessory>
+      <weaponname />
+      <included>False</included>
+      <installed>True</installed>
+      <requireammo>True</requireammo>
+      <accuracy>5</accuracy>
+      <mount />
+      <extramount />
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+    </weapon>
+    <weapon>
+      <sourceid>eb16de72-e646-4880-aa5b-21a5a0a2b342</sourceid>
+      <guid>4581ffba-0c49-4ef0-8d56-974f7627887b</guid>
+      <name>Knife</name>
+      <category>Blades</category>
+      <type>Melee</type>
+      <spec>Knives</spec>
+      <spec2 />
+      <reach>0</reach>
+      <damage>(STR+1)P</damage>
+      <ap>-1</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <cyberware>False</cyberware>
+      <ammocategory />
+      <firingmode>Skill</firingmode>
+      <clips />
+      <conceal>-2</conceal>
+      <avail>0</avail>
+      <cost>10</cost>
+      <useskill />
+      <range />
+      <alternaterange />
+      <rangemultiply>1</rangemultiply>
+      <fullburst>10</fullburst>
+      <suppressive>20</suppressive>
+      <source>SR5</source>
+      <page>422</page>
+      <parentid />
+      <allowaccessory>True</allowaccessory>
+      <weaponname>Messer x3</weaponname>
+      <included>False</included>
+      <installed>True</installed>
+      <requireammo>True</requireammo>
+      <accuracy>5</accuracy>
       <mount />
       <extramount />
       <location />
@@ -1489,7 +1634,1238 @@
       <notes />
     </lifestyle>
   </lifestyles>
-  <gears />
+  <gears>
+    <gear>
+      <guid>34a511e9-0520-4fdd-a1b5-47d6304ac917</guid>
+      <id>89a0f3c9-5ef6-41cd-981f-4ac690ee2ab3</id>
+      <name>Meta Link</name>
+      <category>Commlinks</category>
+      <capacity>0</capacity>
+      <armorcapacity>[2]</armorcapacity>
+      <minrating>0</minrating>
+      <maxrating>0</maxrating>
+      <rating>0</rating>
+      <qty>1</qty>
+      <avail>2</avail>
+      <cost>100</cost>
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <bonus>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
+      <source>SR5</source>
+      <page>438</page>
+      <canformpersona>Self</canformpersona>
+      <devicerating>1</devicerating>
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children>
+        <gear>
+          <guid>c3522d8e-2745-4111-961b-67213a882282</guid>
+          <id>b1f2dcee-7304-4e5e-b022-f3393009a78c</id>
+          <name>Commlink Functionality</name>
+          <category>Electronics Accessories</category>
+          <capacity />
+          <armorcapacity />
+          <minrating>0</minrating>
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <qty>1</qty>
+          <avail>0</avail>
+          <cost>0</cost>
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <bonus>
+          </bonus>
+          <wirelessbonus>
+          </wirelessbonus>
+          <source>SR5</source>
+          <page>438</page>
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid>34a511e9-0520-4fdd-a1b5-47d6304ac917</parentid>
+          <allowrename>False</allowrename>
+          <children>
+            <gear>
+              <guid>960e3f20-b0f3-4d35-aa2f-03656c95fb40</guid>
+              <id>9cd0bf83-3cfa-4c61-bfb0-ae6c01ac8f8d</id>
+              <name>Music Player</name>
+              <category>Electronics Accessories</category>
+              <capacity />
+              <armorcapacity />
+              <minrating>0</minrating>
+              <maxrating>0</maxrating>
+              <rating>0</rating>
+              <qty>1</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <bonus>
+              </bonus>
+              <wirelessbonus>
+              </wirelessbonus>
+              <source>SR5</source>
+              <page>438</page>
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid>c3522d8e-2745-4111-961b-67213a882282</parentid>
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes />
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+            </gear>
+            <gear>
+              <guid>24baa1cf-ab28-4c9c-8c04-0f956c24315f</guid>
+              <id>5db9c4b8-4d7a-4728-aff0-617102c57fc5</id>
+              <name>Micro Trid-Projector</name>
+              <category>Electronics Accessories</category>
+              <capacity />
+              <armorcapacity />
+              <minrating>0</minrating>
+              <maxrating>0</maxrating>
+              <rating>0</rating>
+              <qty>1</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <bonus>
+              </bonus>
+              <wirelessbonus>
+              </wirelessbonus>
+              <source>SR5</source>
+              <page>438</page>
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid>c3522d8e-2745-4111-961b-67213a882282</parentid>
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes />
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+            </gear>
+            <gear>
+              <guid>5d56192c-e04a-4e51-b012-69aca1d11c19</guid>
+              <id>b19f022c-c854-4a3f-8b7a-d2a2532a2680</id>
+              <name>Touchscreen Display</name>
+              <category>Electronics Accessories</category>
+              <capacity />
+              <armorcapacity />
+              <minrating>0</minrating>
+              <maxrating>0</maxrating>
+              <rating>0</rating>
+              <qty>1</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <bonus>
+              </bonus>
+              <wirelessbonus>
+              </wirelessbonus>
+              <source>SR5</source>
+              <page>438</page>
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid>c3522d8e-2745-4111-961b-67213a882282</parentid>
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes />
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+            </gear>
+            <gear>
+              <guid>00bd29c0-b360-47ff-ae47-a3c703e3cad0</guid>
+              <id>fa6fa434-107b-4f36-a138-f98b044dae76</id>
+              <name>Camera, Micro</name>
+              <category>Vision Devices</category>
+              <capacity>[0]</capacity>
+              <armorcapacity>[1]</armorcapacity>
+              <minrating>1</minrating>
+              <maxrating>1</maxrating>
+              <rating>1</rating>
+              <qty>1</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <bonus>
+              </bonus>
+              <wirelessbonus>
+              </wirelessbonus>
+              <source>SR5</source>
+              <page>443</page>
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid>c3522d8e-2745-4111-961b-67213a882282</parentid>
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes />
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+            </gear>
+            <gear>
+              <guid>fbaf12dd-18ef-4ebf-b066-2bb60d170056</guid>
+              <id>5146abd2-6ab2-4aee-b523-a63d5c5ab93b</id>
+              <name>RFID Tag Scanner</name>
+              <category>Electronics Accessories</category>
+              <capacity />
+              <armorcapacity />
+              <minrating>0</minrating>
+              <maxrating>0</maxrating>
+              <rating>0</rating>
+              <qty>1</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <bonus>
+              </bonus>
+              <wirelessbonus>
+              </wirelessbonus>
+              <source>SR5</source>
+              <page>438</page>
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid>c3522d8e-2745-4111-961b-67213a882282</parentid>
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes />
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+            </gear>
+            <gear>
+              <guid>8e7c1398-fb8a-4cce-8c97-fc97d2eaab4b</guid>
+              <id>82946de2-876c-46d8-a6ec-744a38257668</id>
+              <name>GPS Guidance System</name>
+              <category>Electronics Accessories</category>
+              <capacity />
+              <armorcapacity />
+              <minrating>0</minrating>
+              <maxrating>0</maxrating>
+              <rating>0</rating>
+              <qty>1</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <bonus>
+              </bonus>
+              <wirelessbonus>
+              </wirelessbonus>
+              <source>SR5</source>
+              <page>438</page>
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid>c3522d8e-2745-4111-961b-67213a882282</parentid>
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes />
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+            </gear>
+            <gear>
+              <guid>0a2cd0dc-058e-4c6b-bef3-7dd8f3dfcafb</guid>
+              <id>f9995732-7d00-496c-8407-a3dc0e1a82ff</id>
+              <name>Chip Player</name>
+              <category>Electronics Accessories</category>
+              <capacity />
+              <armorcapacity />
+              <minrating>0</minrating>
+              <maxrating>0</maxrating>
+              <rating>0</rating>
+              <qty>1</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <bonus>
+              </bonus>
+              <wirelessbonus>
+              </wirelessbonus>
+              <source>SR5</source>
+              <page>438</page>
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid>c3522d8e-2745-4111-961b-67213a882282</parentid>
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes />
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+            </gear>
+            <gear>
+              <guid>4501ad13-7c45-4c29-a370-cbd23dbef25f</guid>
+              <id>1d6f985e-5cf0-463d-a445-fafdd387f301</id>
+              <name>Credstick Reader</name>
+              <category>Electronics Accessories</category>
+              <capacity />
+              <armorcapacity />
+              <minrating>0</minrating>
+              <maxrating>0</maxrating>
+              <rating>0</rating>
+              <qty>1</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <bonus>
+              </bonus>
+              <wirelessbonus>
+              </wirelessbonus>
+              <source>SR5</source>
+              <page>438</page>
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid>c3522d8e-2745-4111-961b-67213a882282</parentid>
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes />
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+            </gear>
+            <gear>
+              <guid>6d7f3cb6-e1ab-4dac-9de7-aa9536cba8c0</guid>
+              <id>5d69d002-c33d-4d0f-9c4d-d78db4d78e5d</id>
+              <name>Earbuds</name>
+              <category>Audio Devices</category>
+              <capacity>[0]</capacity>
+              <armorcapacity />
+              <minrating>3</minrating>
+              <maxrating>3</maxrating>
+              <rating>3</rating>
+              <qty>1</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <bonus>
+              </bonus>
+              <wirelessbonus>
+              </wirelessbonus>
+              <source>SR5</source>
+              <page>445</page>
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid>c3522d8e-2745-4111-961b-67213a882282</parentid>
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes />
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+            </gear>
+            <gear>
+              <guid>bc855427-9ad6-470e-8895-efb2749b75e5</guid>
+              <id>786682fb-cbd5-4ee8-969a-233484004df7</id>
+              <name>Shock- and Water-Resistant Case</name>
+              <category>Commlink Accessories</category>
+              <capacity />
+              <armorcapacity />
+              <minrating>0</minrating>
+              <maxrating>0</maxrating>
+              <rating>0</rating>
+              <qty>1</qty>
+              <avail>0</avail>
+              <cost>0</cost>
+              <extra />
+              <bonded>False</bonded>
+              <equipped>True</equipped>
+              <wirelesson>False</wirelesson>
+              <bonus>
+              </bonus>
+              <wirelessbonus>
+              </wirelessbonus>
+              <source>SR5</source>
+              <page>438</page>
+              <canformpersona />
+              <devicerating />
+              <gearname />
+              <forcedvalue />
+              <matrixcmfilled>0</matrixcmfilled>
+              <matrixcmbonus>0</matrixcmbonus>
+              <parentid>c3522d8e-2745-4111-961b-67213a882282</parentid>
+              <allowrename>False</allowrename>
+              <children />
+              <location />
+              <notes />
+              <discountedcost>False</discountedcost>
+              <programlimit />
+              <overclocked>None</overclocked>
+              <attack />
+              <sleaze />
+              <dataprocessing />
+              <firewall />
+              <attributearray />
+              <modattack />
+              <modsleaze />
+              <moddataprocessing />
+              <modfirewall />
+              <modattributearray />
+              <canswapattributes>False</canswapattributes>
+              <active>False</active>
+              <homenode>False</homenode>
+            </gear>
+          </children>
+          <location />
+          <notes />
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+        </gear>
+      </children>
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing>1</dataprocessing>
+      <firewall>1</firewall>
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+    </gear>
+    <gear>
+      <guid>ddd59fc8-5f4d-472e-bfff-01e42b6d2170</guid>
+      <id>27f9775d-cd14-4900-827f-ba00d26e0c67</id>
+      <name>Survival Kit</name>
+      <category>Survival Gear</category>
+      <capacity />
+      <armorcapacity>[6]</armorcapacity>
+      <minrating>0</minrating>
+      <maxrating>0</maxrating>
+      <rating>0</rating>
+      <qty>1</qty>
+      <avail>4</avail>
+      <cost>200</cost>
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <weaponguid>2259eafe-c0bd-42e6-a471-47f6c024a43e</weaponguid>
+      <bonus>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
+      <source>SR5</source>
+      <page>449</page>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children>
+        <gear>
+          <guid>31c8409f-44cc-4b83-85cd-73c6e3550f16</guid>
+          <id>9f0d5d35-43f3-4877-b384-cf4188b5bca7</id>
+          <name>Lighter</name>
+          <category>Survival Gear</category>
+          <capacity />
+          <armorcapacity />
+          <minrating>0</minrating>
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <qty>1</qty>
+          <avail>0</avail>
+          <cost>0</cost>
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <bonus>
+          </bonus>
+          <wirelessbonus>
+          </wirelessbonus>
+          <source>SR5</source>
+          <page>449</page>
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid>ddd59fc8-5f4d-472e-bfff-01e42b6d2170</parentid>
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes />
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+        </gear>
+        <gear>
+          <guid>8388e91a-d1ae-49ab-9a77-e8571d1360f0</guid>
+          <id>d61cb088-eeda-4251-bc5b-1f4b367b9001</id>
+          <name>Compass</name>
+          <category>Survival Gear</category>
+          <capacity />
+          <armorcapacity />
+          <minrating>0</minrating>
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <qty>1</qty>
+          <avail>0</avail>
+          <cost>0</cost>
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <bonus>
+          </bonus>
+          <wirelessbonus>
+          </wirelessbonus>
+          <source>SR5</source>
+          <page>449</page>
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid>ddd59fc8-5f4d-472e-bfff-01e42b6d2170</parentid>
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes />
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+        </gear>
+        <gear>
+          <guid>8bf3ab40-aa78-43ca-8218-8285456837fc</guid>
+          <id>0a897bb2-6260-42d3-ad2f-27345230a133</id>
+          <name>Matches</name>
+          <category>Survival Gear</category>
+          <capacity />
+          <armorcapacity />
+          <minrating>0</minrating>
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <qty>1</qty>
+          <avail>0</avail>
+          <cost>0</cost>
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <bonus>
+          </bonus>
+          <wirelessbonus>
+          </wirelessbonus>
+          <source>SR5</source>
+          <page>449</page>
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid>ddd59fc8-5f4d-472e-bfff-01e42b6d2170</parentid>
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes />
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+        </gear>
+        <gear>
+          <guid>fcaaab0a-f21a-44ae-84d0-c482c35d7d65</guid>
+          <id>3975e539-010d-4ffa-b163-17b5e300d336</id>
+          <name>Lightweight Thermal Blanket</name>
+          <category>Survival Gear</category>
+          <capacity />
+          <armorcapacity />
+          <minrating>0</minrating>
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <qty>1</qty>
+          <avail>0</avail>
+          <cost>0</cost>
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <bonus>
+          </bonus>
+          <wirelessbonus>
+          </wirelessbonus>
+          <source>SR5</source>
+          <page>449</page>
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid>ddd59fc8-5f4d-472e-bfff-01e42b6d2170</parentid>
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes />
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+        </gear>
+        <gear>
+          <guid>1771d38d-7bd2-49b5-bcf7-530a01687abe</guid>
+          <id>c0cf0e8f-386e-4b6d-8f7d-971a4cd0b56b</id>
+          <name>Several Days' Worth of Ration Bars</name>
+          <category>Survival Gear</category>
+          <capacity />
+          <armorcapacity />
+          <minrating>0</minrating>
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <qty>1</qty>
+          <avail>0</avail>
+          <cost>0</cost>
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <bonus>
+          </bonus>
+          <wirelessbonus>
+          </wirelessbonus>
+          <source>SR5</source>
+          <page>449</page>
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid>ddd59fc8-5f4d-472e-bfff-01e42b6d2170</parentid>
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes />
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+        </gear>
+        <gear>
+          <guid>9abf6072-6a9a-4620-b7f7-5c45f6ab3fef</guid>
+          <id>1bec7c2a-2c90-43d2-99ac-610f02e38148</id>
+          <name>Water Purification Unit</name>
+          <category>Survival Gear</category>
+          <capacity />
+          <armorcapacity />
+          <minrating>0</minrating>
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <qty>1</qty>
+          <avail>0</avail>
+          <cost>0</cost>
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <bonus>
+          </bonus>
+          <wirelessbonus>
+          </wirelessbonus>
+          <source>SR5</source>
+          <page>449</page>
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid>ddd59fc8-5f4d-472e-bfff-01e42b6d2170</parentid>
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes />
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+        </gear>
+      </children>
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+    </gear>
+    <gear>
+      <guid>f6efc0d9-85a6-499c-8851-c6e7ebd14e6e</guid>
+      <id>8adaecd5-0c24-4982-8803-e4459e16589f</id>
+      <name>Standard Rope (100m)</name>
+      <category>Grapple Gun</category>
+      <capacity />
+      <armorcapacity />
+      <minrating>0</minrating>
+      <maxrating>0</maxrating>
+      <rating>0</rating>
+      <qty>1</qty>
+      <avail>0</avail>
+      <cost>50</cost>
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <bonus>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
+      <source>SR5</source>
+      <page>449</page>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+    </gear>
+    <gear>
+      <guid>8444ffed-4d4e-4712-bf72-e1024b3ce7a6</guid>
+      <id>d1fca845-ae01-4b39-a176-1506da699e0e</id>
+      <name>Micro-Transceiver</name>
+      <category>Communications and Countermeasures</category>
+      <capacity />
+      <armorcapacity>[1]</armorcapacity>
+      <minrating>0</minrating>
+      <maxrating>0</maxrating>
+      <rating>0</rating>
+      <qty>1</qty>
+      <avail>2</avail>
+      <cost>100</cost>
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <bonus>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
+      <source>SR5</source>
+      <page>441</page>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+    </gear>
+    <gear>
+      <guid>a9e51afa-0973-487f-98a3-80f17c844f06</guid>
+      <id>9d775d72-29ca-4784-b617-a667469fe192</id>
+      <name>Glue Solvent</name>
+      <category>Chemicals</category>
+      <capacity />
+      <armorcapacity />
+      <minrating>0</minrating>
+      <maxrating>0</maxrating>
+      <rating>0</rating>
+      <qty>4</qty>
+      <avail>2</avail>
+      <cost>90</cost>
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <bonus>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
+      <source>SR5</source>
+      <page>448</page>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+    </gear>
+    <gear>
+      <guid>99b35d18-05b7-47df-8e88-57e0c66d0e10</guid>
+      <id>53c0b4cc-b209-4db4-bb0d-6710b3f4349a</id>
+      <name>Restraint, Plastic</name>
+      <category>Security Devices</category>
+      <capacity />
+      <armorcapacity />
+      <minrating>0</minrating>
+      <maxrating>0</maxrating>
+      <rating>0</rating>
+      <qty>76</qty>
+      <avail>0</avail>
+      <costfor>10</costfor>
+      <cost>5</cost>
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <bonus>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
+      <source>SR5</source>
+      <page>447</page>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+    </gear>
+    <gear>
+      <guid>60517baa-3c7d-42c4-a300-31cf14ad16aa</guid>
+      <id>84bb92e7-ce13-4eb6-bf9e-15bf3887469c</id>
+      <name>Standard Tags</name>
+      <category>RFID Tags</category>
+      <capacity />
+      <armorcapacity />
+      <minrating>0</minrating>
+      <maxrating>0</maxrating>
+      <rating>0</rating>
+      <qty>1</qty>
+      <avail>0</avail>
+      <costfor>10</costfor>
+      <cost>1</cost>
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <bonus>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
+      <source>SR5</source>
+      <page>440</page>
+      <canformpersona />
+      <devicerating>1</devicerating>
+      <gearname>TRanspondercode Wache #2</gearname>
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+    </gear>
+  </gears>
   <vehicles />
   <metamagics />
   <arts />
@@ -1751,7 +3127,7 @@
     <expense>
       <guid>6271b613-d6f3-4558-8b65-a755f6f86773</guid>
       <date>2018-02-06T23:02:28</date>
-      <amount>5020</amount>
+      <amount>2672</amount>
       <reason>Starting Nuyen</reason>
       <type>Nuyen</type>
       <refund>False</refund>
@@ -1763,13 +3139,95 @@
         <extra />
       </undo>
     </expense>
+    <expense>
+      <guid>b092b29c-aa50-4eb3-955f-226520ad61a8</guid>
+      <date>2018-02-07T20:45:15</date>
+      <amount>3</amount>
+      <reason>Missionsbelohnung 1. Mission</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>0fe27229-c820-42e5-921e-eb59245602e9</guid>
+      <date>2018-02-08T00:20:38</date>
+      <amount>-95.00</amount>
+      <reason>Erworbene Ausrüstung Meta Link</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>34a511e9-0520-4fdd-a1b5-47d6304ac917</objectid>
+        <qty>1</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>4a91ae4c-25e6-4947-a62d-d8aaa51aae30</guid>
+      <date>2018-02-08T00:20:49</date>
+      <amount>-190.00</amount>
+      <reason>Erworbene Ausrüstung Survival-Kit</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>ddd59fc8-5f4d-472e-bfff-01e42b6d2170</objectid>
+        <qty>1</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>e3cc994e-9abc-4f5f-a3ed-6e3d726985b8</guid>
+      <date>2018-02-08T00:21:00</date>
+      <amount>-47.50</amount>
+      <reason>Erworbene Ausrüstung Standardseil (100m)</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>f6efc0d9-85a6-499c-8851-c6e7ebd14e6e</objectid>
+        <qty>1</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>be009a87-4dd4-4ee6-b181-da3b0054fd76</guid>
+      <date>2018-02-08T00:21:12</date>
+      <amount>-950.00</amount>
+      <reason>Erworbene Panzerung Panzerjacke</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddArmor</nuyentype>
+        <objectid>a18f6d6b-d5a4-4a83-ac99-dedf876a4c88</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
   </expenses>
   <gearlocations />
   <armorlocations />
   <vehiclelocations />
   <weaponlocations />
   <improvementgroups />
-  <calendar />
+  <calendar>
+    <week>
+      <guid>36580c16-e594-4ba2-8313-acc02161f343</guid>
+      <year>2075</year>
+      <week>1</week>
+      <notes>Start des Abenteuers</notes>
+    </week>
+  </calendar>
   <sources>
     <source>SR5</source>
   </sources>
