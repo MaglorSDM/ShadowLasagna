@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <character>
   <createdversion>5.197.18</createdversion>
-  <appversion>5.197.26</appversion>
+  <appversion>5.198.0</appversion>
   <gameedition>SR5</gameedition>
   <settings>default.xml</settings>
   <metatype>Human</metatype>
@@ -63,11 +63,9 @@
   <burntstreetcred>0</burntstreetcred>
   <created>True</created>
   <maxavail>10</maxavail>
-  <nuyen>973.00</nuyen>
+  <nuyen>948.00</nuyen>
   <startingnuyen>6000</startingnuyen>
-  <adeptwaydiscount>0</adeptwaydiscount>
   <sumtoten>10</sumtoten>
-  <bp>0</bp>
   <buildkarma>13</buildkarma>
   <buildmethod>Priority</buildmethod>
   <gameplayoption>Street Scum</gameplayoption>
@@ -1613,8 +1611,10 @@
       <bonded>False</bonded>
       <equipped>True</equipped>
       <wirelesson>False</wirelesson>
-      <bonus />
-      <wirelessbonus />
+      <bonus>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
       <source>SR5</source>
       <page>438</page>
       <canformpersona>Self</canformpersona>
@@ -1643,8 +1643,10 @@
           <bonded>False</bonded>
           <equipped>True</equipped>
           <wirelesson>False</wirelesson>
-          <bonus />
-          <wirelessbonus />
+          <bonus>
+          </bonus>
+          <wirelessbonus>
+          </wirelessbonus>
           <source>SR5</source>
           <page>438</page>
           <canformpersona />
@@ -1673,8 +1675,10 @@
               <bonded>False</bonded>
               <equipped>True</equipped>
               <wirelesson>False</wirelesson>
-              <bonus />
-              <wirelessbonus />
+              <bonus>
+              </bonus>
+              <wirelessbonus>
+              </wirelessbonus>
               <source>SR5</source>
               <page>438</page>
               <canformpersona />
@@ -1722,8 +1726,10 @@
               <bonded>False</bonded>
               <equipped>True</equipped>
               <wirelesson>False</wirelesson>
-              <bonus />
-              <wirelessbonus />
+              <bonus>
+              </bonus>
+              <wirelessbonus>
+              </wirelessbonus>
               <source>SR5</source>
               <page>438</page>
               <canformpersona />
@@ -1771,8 +1777,10 @@
               <bonded>False</bonded>
               <equipped>True</equipped>
               <wirelesson>False</wirelesson>
-              <bonus />
-              <wirelessbonus />
+              <bonus>
+              </bonus>
+              <wirelessbonus>
+              </wirelessbonus>
               <source>SR5</source>
               <page>438</page>
               <canformpersona />
@@ -1820,8 +1828,10 @@
               <bonded>False</bonded>
               <equipped>True</equipped>
               <wirelesson>False</wirelesson>
-              <bonus />
-              <wirelessbonus />
+              <bonus>
+              </bonus>
+              <wirelessbonus>
+              </wirelessbonus>
               <source>SR5</source>
               <page>443</page>
               <canformpersona />
@@ -1869,8 +1879,10 @@
               <bonded>False</bonded>
               <equipped>True</equipped>
               <wirelesson>False</wirelesson>
-              <bonus />
-              <wirelessbonus />
+              <bonus>
+              </bonus>
+              <wirelessbonus>
+              </wirelessbonus>
               <source>SR5</source>
               <page>438</page>
               <canformpersona />
@@ -1918,8 +1930,10 @@
               <bonded>False</bonded>
               <equipped>True</equipped>
               <wirelesson>False</wirelesson>
-              <bonus />
-              <wirelessbonus />
+              <bonus>
+              </bonus>
+              <wirelessbonus>
+              </wirelessbonus>
               <source>SR5</source>
               <page>438</page>
               <canformpersona />
@@ -1967,8 +1981,10 @@
               <bonded>False</bonded>
               <equipped>True</equipped>
               <wirelesson>False</wirelesson>
-              <bonus />
-              <wirelessbonus />
+              <bonus>
+              </bonus>
+              <wirelessbonus>
+              </wirelessbonus>
               <source>SR5</source>
               <page>438</page>
               <canformpersona />
@@ -2016,8 +2032,10 @@
               <bonded>False</bonded>
               <equipped>True</equipped>
               <wirelesson>False</wirelesson>
-              <bonus />
-              <wirelessbonus />
+              <bonus>
+              </bonus>
+              <wirelessbonus>
+              </wirelessbonus>
               <source>SR5</source>
               <page>438</page>
               <canformpersona />
@@ -2065,8 +2083,10 @@
               <bonded>False</bonded>
               <equipped>True</equipped>
               <wirelesson>False</wirelesson>
-              <bonus />
-              <wirelessbonus />
+              <bonus>
+              </bonus>
+              <wirelessbonus>
+              </wirelessbonus>
               <source>SR5</source>
               <page>445</page>
               <canformpersona />
@@ -2114,8 +2134,10 @@
               <bonded>False</bonded>
               <equipped>True</equipped>
               <wirelesson>False</wirelesson>
-              <bonus />
-              <wirelessbonus />
+              <bonus>
+              </bonus>
+              <wirelessbonus>
+              </wirelessbonus>
               <source>SR5</source>
               <page>438</page>
               <canformpersona />
@@ -2204,8 +2226,10 @@
       <equipped>True</equipped>
       <wirelesson>False</wirelesson>
       <weaponguid>c7991bfc-aa67-4959-b17d-28caeb28ff3d</weaponguid>
-      <bonus />
-      <wirelessbonus />
+      <bonus>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
       <source>SR5</source>
       <page>449</page>
       <canformpersona />
@@ -2234,8 +2258,10 @@
           <bonded>False</bonded>
           <equipped>True</equipped>
           <wirelesson>False</wirelesson>
-          <bonus />
-          <wirelessbonus />
+          <bonus>
+          </bonus>
+          <wirelessbonus>
+          </wirelessbonus>
           <source>SR5</source>
           <page>449</page>
           <canformpersona />
@@ -2283,8 +2309,10 @@
           <bonded>False</bonded>
           <equipped>True</equipped>
           <wirelesson>False</wirelesson>
-          <bonus />
-          <wirelessbonus />
+          <bonus>
+          </bonus>
+          <wirelessbonus>
+          </wirelessbonus>
           <source>SR5</source>
           <page>449</page>
           <canformpersona />
@@ -2332,8 +2360,10 @@
           <bonded>False</bonded>
           <equipped>True</equipped>
           <wirelesson>False</wirelesson>
-          <bonus />
-          <wirelessbonus />
+          <bonus>
+          </bonus>
+          <wirelessbonus>
+          </wirelessbonus>
           <source>SR5</source>
           <page>449</page>
           <canformpersona />
@@ -2381,8 +2411,10 @@
           <bonded>False</bonded>
           <equipped>True</equipped>
           <wirelesson>False</wirelesson>
-          <bonus />
-          <wirelessbonus />
+          <bonus>
+          </bonus>
+          <wirelessbonus>
+          </wirelessbonus>
           <source>SR5</source>
           <page>449</page>
           <canformpersona />
@@ -2430,8 +2462,10 @@
           <bonded>False</bonded>
           <equipped>True</equipped>
           <wirelesson>False</wirelesson>
-          <bonus />
-          <wirelessbonus />
+          <bonus>
+          </bonus>
+          <wirelessbonus>
+          </wirelessbonus>
           <source>SR5</source>
           <page>449</page>
           <canformpersona />
@@ -2479,8 +2513,10 @@
           <bonded>False</bonded>
           <equipped>True</equipped>
           <wirelesson>False</wirelesson>
-          <bonus />
-          <wirelessbonus />
+          <bonus>
+          </bonus>
+          <wirelessbonus>
+          </wirelessbonus>
           <source>SR5</source>
           <page>449</page>
           <canformpersona />
@@ -2548,8 +2584,10 @@
       <bonded>False</bonded>
       <equipped>True</equipped>
       <wirelesson>False</wirelesson>
-      <bonus />
-      <wirelessbonus />
+      <bonus>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
       <source>SR5</source>
       <page>449</page>
       <canformpersona />
@@ -2597,8 +2635,10 @@
       <bonded>False</bonded>
       <equipped>True</equipped>
       <wirelesson>False</wirelesson>
-      <bonus />
-      <wirelessbonus />
+      <bonus>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
       <source>SR5</source>
       <page>448</page>
       <canformpersona />
@@ -2646,8 +2686,10 @@
       <bonded>False</bonded>
       <equipped>True</equipped>
       <wirelesson>False</wirelesson>
-      <bonus />
-      <wirelessbonus />
+      <bonus>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
       <source>SR5</source>
       <page>439</page>
       <canformpersona />
@@ -3008,6 +3050,21 @@
         <nuyentype>AddGear</nuyentype>
         <objectid>d7f6da8a-b3c3-43fd-900b-4913ed66adfd</objectid>
         <qty>1</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>fca86fb6-52f9-4b2c-9b57-2bedbbb204e1</guid>
+      <date>2018-02-14T20:18:10</date>
+      <amount>-25.0</amount>
+      <reason>Essen "Zum dürren Troll"</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualSubtract</nuyentype>
+        <objectid />
+        <qty>0</qty>
         <extra />
       </undo>
     </expense>

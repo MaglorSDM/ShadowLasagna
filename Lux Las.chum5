@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <character>
   <createdversion>5.197.25</createdversion>
-  <appversion>5.197.26</appversion>
+  <appversion>5.198.0</appversion>
   <gameedition>SR5</gameedition>
   <settings>default.xml</settings>
   <metatype>Elf</metatype>
@@ -62,11 +62,9 @@
   <burntstreetcred>0</burntstreetcred>
   <created>True</created>
   <maxavail>10</maxavail>
-  <nuyen>1389.50</nuyen>
+  <nuyen>1354.50</nuyen>
   <startingnuyen>6000</startingnuyen>
-  <adeptwaydiscount>0</adeptwaydiscount>
   <sumtoten>10</sumtoten>
-  <bp>0</bp>
   <buildkarma>13</buildkarma>
   <buildmethod>Priority</buildmethod>
   <gameplayoption>Street Scum</gameplayoption>
@@ -3110,21 +3108,6 @@
   <mentorspirits />
   <expenses>
     <expense>
-      <guid>c74647fc-f4f1-4b2e-9b13-5b5b2ad77dcb</guid>
-      <date>2018-02-06T23:02:28</date>
-      <amount>3</amount>
-      <reason>Starting Karma</reason>
-      <type>Karma</type>
-      <refund>False</refund>
-      <undo>
-        <karmatype>ManualAdd</karmatype>
-        <nuyentype>AddCyberware</nuyentype>
-        <objectid />
-        <qty>0</qty>
-        <extra />
-      </undo>
-    </expense>
-    <expense>
       <guid>6271b613-d6f3-4558-8b65-a755f6f86773</guid>
       <date>2018-02-06T23:02:28</date>
       <amount>2672</amount>
@@ -3134,6 +3117,21 @@
       <undo>
         <karmatype>ImproveAttribute</karmatype>
         <nuyentype>ManualAdd</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>c74647fc-f4f1-4b2e-9b13-5b5b2ad77dcb</guid>
+      <date>2018-02-06T23:02:28</date>
+      <amount>3</amount>
+      <reason>Starting Karma</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
         <objectid />
         <qty>0</qty>
         <extra />
@@ -3210,6 +3208,36 @@
         <karmatype>ImproveAttribute</karmatype>
         <nuyentype>AddArmor</nuyentype>
         <objectid>a18f6d6b-d5a4-4a83-ac99-dedf876a4c88</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>f0b7533e-4404-4040-9f8f-2cbc5b8a909e</guid>
+      <date>2018-02-14T20:18:26</date>
+      <amount>-25.0</amount>
+      <reason>Essen "Zum dürren Troll"</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualSubtract</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>0845dd35-f2d1-4155-bb15-f73d5b55a995</guid>
+      <date>2018-02-14T21:23:36</date>
+      <amount>-10</amount>
+      <reason>offizielle tickets vom kontaktmann zu station K</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualSubtract</nuyentype>
+        <objectid />
         <qty>0</qty>
         <extra />
       </undo>
