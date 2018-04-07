@@ -43,7 +43,7 @@
   <gamenotes />
   <primaryarm>Right</primaryarm>
   <karma>4</karma>
-  <totalkarma>4</totalkarma>
+  <totalkarma>8</totalkarma>
   <special>0</special>
   <totalspecial>0</totalspecial>
   <totalattributes>24</totalattributes>
@@ -59,7 +59,7 @@
   <burntstreetcred>0</burntstreetcred>
   <created>True</created>
   <maxavail>10</maxavail>
-  <nuyen>112.99999</nuyen>
+  <nuyen>1645.99999</nuyen>
   <startingnuyen>6000</startingnuyen>
   <sumtoten>10</sumtoten>
   <buildkarma>13</buildkarma>
@@ -349,7 +349,7 @@
         <suid>9de43fad-b365-4e73-bc06-91dd571b858a</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Social Active</skillcategory>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
       </skill>
@@ -527,7 +527,7 @@
         <suid>cd9f6bf7-fa48-464b-9a8f-c7ce26713a72</suid>
         <isknowledge>False</isknowledge>
         <skillcategory>Combat Active</skillcategory>
-        <karma>0</karma>
+        <karma>1</karma>
         <base>0</base>
         <notes />
       </skill>
@@ -1029,6 +1029,32 @@
       <source>SR5</source>
       <page>437</page>
       <armorname />
+      <equipped>False</equipped>
+      <wirelesson>False</wirelesson>
+      <extra />
+      <damage>0</damage>
+      <rating>0</rating>
+      <rating>0</rating>
+      <armormods />
+      <bonus />
+      <wirelessbonus />
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+    </armor>
+    <armor>
+      <sourceid>36a4cd30-c32c-44d0-847a-0c15fb51072a</sourceid>
+      <guid>497f94cb-da62-4e34-be3b-100af34082f5</guid>
+      <name>Armor Jacket</name>
+      <category>Armor</category>
+      <armor>12</armor>
+      <armoroverride />
+      <armorcapacity>12</armorcapacity>
+      <avail>2</avail>
+      <cost>1000</cost>
+      <source>SR5</source>
+      <page>437</page>
+      <armorname />
       <equipped>True</equipped>
       <wirelesson>False</wirelesson>
       <extra />
@@ -1404,6 +1430,65 @@
       <canswapattributes>False</canswapattributes>
       <matrixcmfilled>0</matrixcmfilled>
     </weapon>
+    <weapon>
+      <sourceid>73c71350-fafe-4f9e-af22-198727241a4d</sourceid>
+      <guid>a4cde4ce-bffa-4435-a259-781cfb480b8b</guid>
+      <name>Staff</name>
+      <category>Clubs</category>
+      <type>Melee</type>
+      <spec>Staves</spec>
+      <spec2 />
+      <reach>2</reach>
+      <damage>(STR+3)P</damage>
+      <ap>-</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <cyberware>False</cyberware>
+      <ammocategory />
+      <firingmode>Skill</firingmode>
+      <clips />
+      <conceal>10</conceal>
+      <avail>3</avail>
+      <cost>100</cost>
+      <useskill />
+      <range />
+      <alternaterange />
+      <rangemultiply>1</rangemultiply>
+      <fullburst>10</fullburst>
+      <suppressive>20</suppressive>
+      <source>SR5</source>
+      <page>422</page>
+      <parentid />
+      <allowaccessory>True</allowaccessory>
+      <weaponname />
+      <included>False</included>
+      <installed>True</installed>
+      <requireammo>True</requireammo>
+      <accuracy>6</accuracy>
+      <mount />
+      <extramount />
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+    </weapon>
   </weapons>
   <cyberwares />
   <qualities>
@@ -1527,7 +1612,7 @@
       <minrating>0</minrating>
       <maxrating>0</maxrating>
       <rating>0</rating>
-      <qty>2</qty>
+      <qty>1</qty>
       <avail>4</avail>
       <cost>125</cost>
       <extra />
@@ -2772,21 +2857,6 @@
   <mentorspirits />
   <expenses>
     <expense>
-      <guid>149d7db9-454e-4b56-b481-0af9cb29b433</guid>
-      <date>2018-02-07T20:42:51</date>
-      <amount>1</amount>
-      <reason>Starting Karma</reason>
-      <type>Karma</type>
-      <refund>False</refund>
-      <undo>
-        <karmatype>ManualAdd</karmatype>
-        <nuyentype>AddCyberware</nuyentype>
-        <objectid />
-        <qty>0</qty>
-        <extra />
-      </undo>
-    </expense>
-    <expense>
       <guid>f8416052-e4ff-4033-b0f9-adc43bd04660</guid>
       <date>2018-02-07T20:42:51</date>
       <amount>2678</amount>
@@ -2796,6 +2866,21 @@
       <undo>
         <karmatype>ImproveAttribute</karmatype>
         <nuyentype>ManualAdd</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>149d7db9-454e-4b56-b481-0af9cb29b433</guid>
+      <date>2018-02-07T20:42:51</date>
+      <amount>1</amount>
+      <reason>Starting Karma</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
         <objectid />
         <qty>0</qty>
         <extra />
@@ -2963,6 +3048,111 @@
         <nuyentype>AddGear</nuyentype>
         <objectid>0ae09ebc-2a39-409f-8a84-5709859408fd</objectid>
         <qty>2</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>551afc22-b059-4a27-babf-5d16cfd0abf0</guid>
+      <date>2018-04-07T22:30:29</date>
+      <amount>233</amount>
+      <reason>Missions loot von Gegnern</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualAdd</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>0bfdcec0-758a-4e4e-8aaa-c96ec68f62d8</guid>
+      <date>2018-04-07T22:31:07</date>
+      <amount>3500</amount>
+      <reason>Missionsbelohnung</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualAdd</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>76bf8831-f709-4f2f-8739-13d365fe3383</guid>
+      <date>2018-04-07T22:31:38</date>
+      <amount>4</amount>
+      <reason>Missionsbelohnung</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>2f5dd01a-2ef3-4a0b-82da-b2d7ea512bc4</guid>
+      <date>2018-04-07T23:01:11</date>
+      <amount>-2</amount>
+      <reason>Fertigkeit Einschüchtern 0 🡒 1</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>AddSkill</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>f0fed824-8a0f-427b-b2f2-04dd41336b91</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>961f1d63-c296-4334-98bb-64760c805efd</guid>
+      <date>2018-04-07T23:06:45</date>
+      <amount>-2000</amount>
+      <reason>Erworbene Panzerung Panzerjacke</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddArmor</nuyentype>
+        <objectid>497f94cb-da62-4e34-be3b-100af34082f5</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>046c3b34-4c9a-453e-a5a0-ddc3ae8bafb5</guid>
+      <date>2018-04-07T23:12:55</date>
+      <amount>-200.0</amount>
+      <reason>Gekaufte Waffe Stab</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddWeapon</nuyentype>
+        <objectid>a4cde4ce-bffa-4435-a259-781cfb480b8b</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>d757b592-37bc-4f21-975a-f04bfe3e9aeb</guid>
+      <date>2018-04-07T23:13:14</date>
+      <amount>-2</amount>
+      <reason>Fertigkeit Knüppel 0 🡒 1</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>AddSkill</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>62dc932f-2b9b-4bcd-94fc-71b9600fd94e</objectid>
+        <qty>0</qty>
         <extra />
       </undo>
     </expense>

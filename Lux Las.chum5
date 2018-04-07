@@ -45,8 +45,8 @@
   <playername>Alex</playername>
   <gamenotes />
   <primaryarm>Left</primaryarm>
-  <karma>0</karma>
-  <totalkarma>6</totalkarma>
+  <karma>4</karma>
+  <totalkarma>10</totalkarma>
   <special>3</special>
   <totalspecial>3</totalspecial>
   <totalattributes>24</totalattributes>
@@ -62,7 +62,7 @@
   <burntstreetcred>0</burntstreetcred>
   <created>True</created>
   <maxavail>10</maxavail>
-  <nuyen>1354.50</nuyen>
+  <nuyen>5296.50</nuyen>
   <startingnuyen>6000</startingnuyen>
   <sumtoten>10</sumtoten>
   <buildkarma>13</buildkarma>
@@ -3108,21 +3108,6 @@
   <mentorspirits />
   <expenses>
     <expense>
-      <guid>6271b613-d6f3-4558-8b65-a755f6f86773</guid>
-      <date>2018-02-06T23:02:28</date>
-      <amount>2672</amount>
-      <reason>Starting Nuyen</reason>
-      <type>Nuyen</type>
-      <refund>False</refund>
-      <undo>
-        <karmatype>ImproveAttribute</karmatype>
-        <nuyentype>ManualAdd</nuyentype>
-        <objectid />
-        <qty>0</qty>
-        <extra />
-      </undo>
-    </expense>
-    <expense>
       <guid>c74647fc-f4f1-4b2e-9b13-5b5b2ad77dcb</guid>
       <date>2018-02-06T23:02:28</date>
       <amount>3</amount>
@@ -3132,6 +3117,21 @@
       <undo>
         <karmatype>ManualAdd</karmatype>
         <nuyentype>AddCyberware</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>6271b613-d6f3-4558-8b65-a755f6f86773</guid>
+      <date>2018-02-06T23:02:28</date>
+      <amount>2672</amount>
+      <reason>Starting Nuyen</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualAdd</nuyentype>
         <objectid />
         <qty>0</qty>
         <extra />
@@ -3237,6 +3237,51 @@
       <undo>
         <karmatype>ImproveAttribute</karmatype>
         <nuyentype>ManualSubtract</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>922f2ffd-3863-4455-b408-a2dc2b27e921</guid>
+      <date>2018-04-07T22:32:26</date>
+      <amount>442</amount>
+      <reason>Mission loot von Gegner</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualAdd</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>116c2446-2295-488b-ae1a-2ede991c13a8</guid>
+      <date>2018-04-07T22:32:40</date>
+      <amount>3500</amount>
+      <reason>Missionsbelohnung</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualAdd</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>eb5814be-bc73-4fd1-baa7-64770f7c8cdf</guid>
+      <date>2018-04-07T22:33:54</date>
+      <amount>4</amount>
+      <reason>Missionsbelohnung</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
         <objectid />
         <qty>0</qty>
         <extra />
