@@ -1,14 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <character>
   <createdversion>5.197.25</createdversion>
-  <appversion>5.198.0</appversion>
+  <appversion>5.199.16</appversion>
   <gameedition>SR5</gameedition>
   <settings>default.xml</settings>
   <metatype>Elf</metatype>
   <metatypebp>0</metatypebp>
   <metavariant />
   <metatypecategory>Metahuman</metatypecategory>
-  <metageneticlimit>0</metageneticlimit>
   <movement />
   <walk>2/1/0</walk>
   <run>4/0/0</run>
@@ -46,7 +45,6 @@
   <gamenotes />
   <primaryarm>Left</primaryarm>
   <karma>10</karma>
-  <totalkarma>10</totalkarma>
   <special>3</special>
   <totalspecial>3</totalspecial>
   <totalattributes>24</totalattributes>
@@ -56,6 +54,7 @@
   <cfplimit>0</cfplimit>
   <ainormalprogramlimit>0</ainormalprogramlimit>
   <aiadvancedprogramlimit>0</aiadvancedprogramlimit>
+  <currentcounterspellingdice>0</currentcounterspellingdice>
   <streetcred>0</streetcred>
   <notoriety>0</notoriety>
   <publicawareness>0</publicawareness>
@@ -84,20 +83,9 @@
   <technomancer>False</technomancer>
   <ai>False</ai>
   <cyberwaredisabled>False</cyberwaredisabled>
-  <initiationoverride>False</initiationoverride>
+  <initiationdisabled>False</initiationdisabled>
   <critter>False</critter>
-  <friendsinhighplaces>False</friendsinhighplaces>
   <prototypetranshuman>0</prototypetranshuman>
-  <blackmarketdiscount>False</blackmarketdiscount>
-  <excon>False</excon>
-  <trustfund>0</trustfund>
-  <restrictedgear>False</restrictedgear>
-  <overclocker>False</overclocker>
-  <mademan>False</mademan>
-  <ambidextrous>False</ambidextrous>
-  <fame>False</fame>
-  <bornrich>False</bornrich>
-  <erased>False</erased>
   <attributes>
     <attribute>
       <name>BOD</name>
@@ -106,7 +94,6 @@
       <metatypeaugmax>10</metatypeaugmax>
       <base>2</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>3</totalvalue>
     </attribute>
@@ -117,7 +104,6 @@
       <metatypeaugmax>11</metatypeaugmax>
       <base>4</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>6</totalvalue>
     </attribute>
@@ -128,7 +114,6 @@
       <metatypeaugmax>10</metatypeaugmax>
       <base>4</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>5</totalvalue>
     </attribute>
@@ -139,7 +124,6 @@
       <metatypeaugmax>10</metatypeaugmax>
       <base>2</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>3</totalvalue>
     </attribute>
@@ -150,7 +134,6 @@
       <metatypeaugmax>12</metatypeaugmax>
       <base>2</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>5</totalvalue>
     </attribute>
@@ -161,7 +144,6 @@
       <metatypeaugmax>10</metatypeaugmax>
       <base>2</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>3</totalvalue>
     </attribute>
@@ -172,7 +154,6 @@
       <metatypeaugmax>10</metatypeaugmax>
       <base>3</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>4</totalvalue>
     </attribute>
@@ -183,7 +164,6 @@
       <metatypeaugmax>10</metatypeaugmax>
       <base>5</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>6</totalvalue>
     </attribute>
@@ -194,7 +174,6 @@
       <metatypeaugmax>6</metatypeaugmax>
       <base>1</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>2</totalvalue>
     </attribute>
@@ -205,7 +184,6 @@
       <metatypeaugmax>6</metatypeaugmax>
       <base>2</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>6</totalvalue>
     </attribute>
@@ -216,7 +194,6 @@
       <metatypeaugmax>10</metatypeaugmax>
       <base>0</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>1</totalvalue>
     </attribute>
@@ -227,7 +204,6 @@
       <metatypeaugmax>6</metatypeaugmax>
       <base>0</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>1</totalvalue>
     </attribute>
@@ -238,7 +214,6 @@
       <metatypeaugmax>6</metatypeaugmax>
       <base>0</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>1</totalvalue>
     </attribute>
@@ -249,7 +224,6 @@
       <metatypeaugmax>0</metatypeaugmax>
       <base>0</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>0</totalvalue>
     </attribute>
@@ -262,7 +236,7 @@
   <groupmember>False</groupmember>
   <groupname />
   <groupnotes />
-  <totaless>6</totaless>
+  <totaless>6.0</totaless>
   <magsplitadept>0</magsplitadept>
   <magsplitmagician>0</magsplitmagician>
   <tradition>Hermetic</tradition>
@@ -1609,17 +1583,17 @@
       <months>1</months>
       <roommates>0</roommates>
       <percentage>100</percentage>
-      <purchased>False</purchased>
       <area>0</area>
       <comforts>0</comforts>
       <security>0</security>
       <basearea>0</basearea>
       <basecomforts>0</basecomforts>
       <basesecurity>0</basesecurity>
-      <entertainment>0</entertainment>
       <costforearea>0</costforearea>
       <costforcomforts>0</costforcomforts>
       <costforsecurity>0</costforsecurity>
+      <allowbonuslp>False</allowbonuslp>
+      <bonuslp>0</bonuslp>
       <source>SR5</source>
       <page>369</page>
       <trustfund>False</trustfund>
@@ -3108,21 +3082,6 @@
   <mentorspirits />
   <expenses>
     <expense>
-      <guid>c74647fc-f4f1-4b2e-9b13-5b5b2ad77dcb</guid>
-      <date>2018-02-06T23:02:28</date>
-      <amount>3</amount>
-      <reason>Starting Karma</reason>
-      <type>Karma</type>
-      <refund>False</refund>
-      <undo>
-        <karmatype>ManualAdd</karmatype>
-        <nuyentype>AddCyberware</nuyentype>
-        <objectid />
-        <qty>0</qty>
-        <extra />
-      </undo>
-    </expense>
-    <expense>
       <guid>6271b613-d6f3-4558-8b65-a755f6f86773</guid>
       <date>2018-02-06T23:02:28</date>
       <amount>2672</amount>
@@ -3132,6 +3091,21 @@
       <undo>
         <karmatype>ImproveAttribute</karmatype>
         <nuyentype>ManualAdd</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>c74647fc-f4f1-4b2e-9b13-5b5b2ad77dcb</guid>
+      <date>2018-02-06T23:02:28</date>
+      <amount>3</amount>
+      <reason>Starting Karma</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
         <objectid />
         <qty>0</qty>
         <extra />
