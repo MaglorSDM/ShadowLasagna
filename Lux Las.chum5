@@ -44,7 +44,7 @@
   <playername>Alex</playername>
   <gamenotes />
   <primaryarm>Left</primaryarm>
-  <karma>10</karma>
+  <karma>5</karma>
   <special>3</special>
   <totalspecial>3</totalspecial>
   <totalattributes>24</totalattributes>
@@ -1227,6 +1227,28 @@
       <damage>P</damage>
       <duration>I</duration>
       <dv>F-1</dv>
+      <limited>False</limited>
+      <extended>False</extended>
+      <alchemical>False</alchemical>
+      <source>SR5</source>
+      <page>284</page>
+      <extra />
+      <notes />
+      <freebonus>False</freebonus>
+      <usesunarmed>False</usesunarmed>
+      <improvementsource>Spell</improvementsource>
+      <grade>0</grade>
+    </spell>
+    <spell>
+      <guid>8db6de2c-3604-4193-91e5-03642ddbbe4a</guid>
+      <name>Lightning Bolt</name>
+      <descriptors>Indirect, Elemental</descriptors>
+      <category>Combat</category>
+      <type>P</type>
+      <range>LOS</range>
+      <damage>P</damage>
+      <duration>I</duration>
+      <dv>F-3</dv>
       <limited>False</limited>
       <extended>False</extended>
       <alchemical>False</alchemical>
@@ -4065,21 +4087,6 @@
   <mentorspirits />
   <expenses>
     <expense>
-      <guid>c74647fc-f4f1-4b2e-9b13-5b5b2ad77dcb</guid>
-      <date>2018-02-06T23:02:28</date>
-      <amount>3</amount>
-      <reason>Starting Karma</reason>
-      <type>Karma</type>
-      <refund>False</refund>
-      <undo>
-        <karmatype>ManualAdd</karmatype>
-        <nuyentype>AddCyberware</nuyentype>
-        <objectid />
-        <qty>0</qty>
-        <extra />
-      </undo>
-    </expense>
-    <expense>
       <guid>6271b613-d6f3-4558-8b65-a755f6f86773</guid>
       <date>2018-02-06T23:02:28</date>
       <amount>2672</amount>
@@ -4089,6 +4096,21 @@
       <undo>
         <karmatype>ImproveAttribute</karmatype>
         <nuyentype>ManualAdd</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>c74647fc-f4f1-4b2e-9b13-5b5b2ad77dcb</guid>
+      <date>2018-02-06T23:02:28</date>
+      <amount>3</amount>
+      <reason>Starting Karma</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ManualAdd</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
         <objectid />
         <qty>0</qty>
         <extra />
@@ -4376,6 +4398,21 @@
         <nuyentype>AddGear</nuyentype>
         <objectid>364f92ea-1734-4104-ba57-ebafe6b80be0</objectid>
         <qty>1</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>e08d8539-a3e8-4fe8-ad17-57a2620d7ae9</guid>
+      <date>2018-04-17T23:08:42</date>
+      <amount>-5</amount>
+      <reason>Gelernter Zauberspruch Lightning Bolt</reason>
+      <type>Karma</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>AddSpell</karmatype>
+        <nuyentype>AddCyberware</nuyentype>
+        <objectid>8db6de2c-3604-4193-91e5-03642ddbbe4a</objectid>
+        <qty>0</qty>
         <extra />
       </undo>
     </expense>
