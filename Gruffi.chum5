@@ -36,8 +36,12 @@
   <weight>73</weight>
   <skin>Hellbraun</skin>
   <hair>Schwarz</hair>
-  <description />
-  <background />
+  <description>Entspannt, selbst in stressigen Situationen bleibt er gelassen und hat immer einen lässigen Spruch auf der Zunge.</description>
+  <background>Als Kind hat Gruffi seine Eltern durch einen Terroranschlag verloren und ist wie ein Wilder im Wald aufgewachsen. Dort baute er sich eine Höhle unterhalb eines Baumes, die sein Zuhause darstellt. Er jagte seither mit einer Slingshot und Pfeil und Bogen unterschiedliches Getier um am Überleben zu bleiben.
+  Dadurch erlangte er eine Treffsicherheit die seinesgleichen sucht. Als junger erwachsener lernte er einen erfahrenen Elfsoldaten im Ruhestand kennen, der am Rande des Waldes seine Domizil errichtet hatte. Bei diesem lernte er mit den unterschiedlichsten Waffen umzugehen, sich zu tarnen und zu positionieren.
+  Mit diesen dazugewonnenen Fähigkeiten wurde er zu einem Schatten, der aus sicherer Entfernung keines seiner Ziele überrascht. Da alle bereits tot sind, bevor sie überhaupt verstehen was passiert ist.
+
+  Sein einziges Ziel ist es, die Welt von den bösen Mächten der Unterwelt zu befreien, die die Straßen der Welt in Blut tränken.</background>
   <concept />
   <notes />
   <alias>Gruffi</alias>
