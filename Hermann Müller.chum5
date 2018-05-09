@@ -1,14 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <character>
   <createdversion>5.197.18</createdversion>
-  <appversion>5.198.0</appversion>
+  <appversion>5.200.2</appversion>
   <gameedition>SR5</gameedition>
   <settings>default.xml</settings>
   <metatype>Human</metatype>
   <metatypebp>0</metatypebp>
   <metavariant />
   <metatypecategory>Metahuman</metatypecategory>
-  <metageneticlimit>0</metageneticlimit>
   <movement />
   <walk>2/1/0</walk>
   <run>4/0/0</run>
@@ -71,7 +70,6 @@ Recherche über Eltern
   <gamenotes>Spielleiter entscheidet über die Auflösung: über verbleib der (vielleicht doch nicht toten?) Eltern und welcher Konzern dahintersteckt</gamenotes>
   <primaryarm>Right</primaryarm>
   <karma>0</karma>
-  <totalkarma>8</totalkarma>
   <special>1</special>
   <totalspecial>1</totalspecial>
   <totalattributes>24</totalattributes>
@@ -81,13 +79,14 @@ Recherche über Eltern
   <cfplimit>3</cfplimit>
   <ainormalprogramlimit>0</ainormalprogramlimit>
   <aiadvancedprogramlimit>0</aiadvancedprogramlimit>
+  <currentcounterspellingdice>0</currentcounterspellingdice>
   <streetcred>0</streetcred>
   <notoriety>0</notoriety>
   <publicawareness>0</publicawareness>
   <burntstreetcred>0</burntstreetcred>
   <created>True</created>
   <maxavail>10</maxavail>
-  <nuyen>4303.00</nuyen>
+  <nuyen>4762.17</nuyen>
   <startingnuyen>6000</startingnuyen>
   <sumtoten>10</sumtoten>
   <buildkarma>13</buildkarma>
@@ -109,20 +108,9 @@ Recherche über Eltern
   <technomancer>True</technomancer>
   <ai>False</ai>
   <cyberwaredisabled>False</cyberwaredisabled>
-  <initiationoverride>False</initiationoverride>
+  <initiationdisabled>False</initiationdisabled>
   <critter>False</critter>
-  <friendsinhighplaces>False</friendsinhighplaces>
   <prototypetranshuman>0</prototypetranshuman>
-  <blackmarketdiscount>False</blackmarketdiscount>
-  <excon>False</excon>
-  <trustfund>0</trustfund>
-  <restrictedgear>False</restrictedgear>
-  <overclocker>False</overclocker>
-  <mademan>False</mademan>
-  <ambidextrous>False</ambidextrous>
-  <fame>False</fame>
-  <bornrich>False</bornrich>
-  <erased>False</erased>
   <attributes>
     <attribute>
       <name>BOD</name>
@@ -131,7 +119,6 @@ Recherche über Eltern
       <metatypeaugmax>10</metatypeaugmax>
       <base>3</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>4</totalvalue>
     </attribute>
@@ -142,7 +129,6 @@ Recherche über Eltern
       <metatypeaugmax>10</metatypeaugmax>
       <base>2</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>3</totalvalue>
     </attribute>
@@ -153,7 +139,6 @@ Recherche über Eltern
       <metatypeaugmax>10</metatypeaugmax>
       <base>2</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>3</totalvalue>
     </attribute>
@@ -164,7 +149,6 @@ Recherche über Eltern
       <metatypeaugmax>10</metatypeaugmax>
       <base>2</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>3</totalvalue>
     </attribute>
@@ -175,7 +159,6 @@ Recherche über Eltern
       <metatypeaugmax>10</metatypeaugmax>
       <base>2</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>3</totalvalue>
     </attribute>
@@ -186,7 +169,6 @@ Recherche über Eltern
       <metatypeaugmax>10</metatypeaugmax>
       <base>4</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>5</totalvalue>
     </attribute>
@@ -197,7 +179,6 @@ Recherche über Eltern
       <metatypeaugmax>10</metatypeaugmax>
       <base>5</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>6</totalvalue>
     </attribute>
@@ -208,7 +189,6 @@ Recherche über Eltern
       <metatypeaugmax>10</metatypeaugmax>
       <base>4</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>5</totalvalue>
     </attribute>
@@ -219,7 +199,6 @@ Recherche über Eltern
       <metatypeaugmax>7</metatypeaugmax>
       <base>0</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>2</totalvalue>
     </attribute>
@@ -230,7 +209,6 @@ Recherche über Eltern
       <metatypeaugmax>6</metatypeaugmax>
       <base>0</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>1</totalvalue>
     </attribute>
@@ -241,7 +219,6 @@ Recherche über Eltern
       <metatypeaugmax>10</metatypeaugmax>
       <base>0</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>1</totalvalue>
     </attribute>
@@ -252,7 +229,6 @@ Recherche über Eltern
       <metatypeaugmax>6</metatypeaugmax>
       <base>1</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>4</totalvalue>
     </attribute>
@@ -263,7 +239,6 @@ Recherche über Eltern
       <metatypeaugmax>6</metatypeaugmax>
       <base>0</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>1</totalvalue>
     </attribute>
@@ -274,7 +249,6 @@ Recherche über Eltern
       <metatypeaugmax>0</metatypeaugmax>
       <base>0</base>
       <karma>0</karma>
-      <augmodifier>0</augmodifier>
       <metatypecategory>Standard</metatypecategory>
       <totalvalue>0</totalvalue>
     </attribute>
@@ -287,7 +261,7 @@ Recherche über Eltern
   <groupmember>False</groupmember>
   <groupname />
   <groupnotes />
-  <totaless>6</totaless>
+  <totaless>6.0</totaless>
   <tradition />
   <traditiondrain />
   <traditionname />
@@ -1077,7 +1051,24 @@ Recherche über Eltern
   </complexforms>
   <aiprograms />
   <martialarts />
-  <limitmodifiers />
+  <limitmodifiers>
+    <limitmodifier>
+      <guid>16597b08-d13c-4c62-9601-d33775b7af74</guid>
+      <name>Sichtverbesserung</name>
+      <limit>Mental</limit>
+      <condition>Only for Perception (Visual)</condition>
+      <bonus>1</bonus>
+      <notes />
+    </limitmodifier>
+    <limitmodifier>
+      <guid>54f37b46-e907-4838-8669-0e9ddf15f6ff</guid>
+      <name>Medkit</name>
+      <limit>Mental</limit>
+      <condition>Only for First Aid and Medicine</condition>
+      <bonus>2</bonus>
+      <notes />
+    </limitmodifier>
+  </limitmodifiers>
   <armors>
     <armor>
       <sourceid>36a4cd30-c32c-44d0-847a-0c15fb51072a</sourceid>
@@ -1404,6 +1395,65 @@ Recherche über Eltern
       <canswapattributes>False</canswapattributes>
       <matrixcmfilled>0</matrixcmfilled>
     </weapon>
+    <weapon>
+      <sourceid>656906d8-b6a4-47a2-9554-de365097eba0</sourceid>
+      <guid>a98edc78-61c8-4ce7-81bd-014295baf7a9</guid>
+      <name>Combat Knife</name>
+      <category>Blades</category>
+      <type>Melee</type>
+      <spec>Knives</spec>
+      <spec2 />
+      <reach>0</reach>
+      <damage>(STR+2)P</damage>
+      <ap>-3</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <cyberware>False</cyberware>
+      <ammocategory />
+      <firingmode>Skill</firingmode>
+      <clips />
+      <conceal>-2</conceal>
+      <avail>4</avail>
+      <cost>300</cost>
+      <useskill />
+      <range />
+      <alternaterange />
+      <rangemultiply>1</rangemultiply>
+      <fullburst>10</fullburst>
+      <suppressive>20</suppressive>
+      <source>SR5</source>
+      <page>422</page>
+      <parentid />
+      <allowaccessory>True</allowaccessory>
+      <weaponname />
+      <included>False</included>
+      <installed>True</installed>
+      <requireammo>True</requireammo>
+      <accuracy>6</accuracy>
+      <mount />
+      <extramount />
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <active>False</active>
+      <homenode>False</homenode>
+      <devicerating />
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <matrixcmfilled>0</matrixcmfilled>
+    </weapon>
   </weapons>
   <cyberwares />
   <qualities>
@@ -1505,17 +1555,17 @@ Recherche über Eltern
       <months>1</months>
       <roommates>0</roommates>
       <percentage>100.0</percentage>
-      <purchased>False</purchased>
       <area>0</area>
       <comforts>0</comforts>
       <security>0</security>
       <basearea>0</basearea>
       <basecomforts>0</basecomforts>
       <basesecurity>0</basesecurity>
-      <entertainment>0</entertainment>
       <costforearea>0</costforearea>
       <costforcomforts>50</costforcomforts>
       <costforsecurity>50</costforsecurity>
+      <allowbonuslp>False</allowbonuslp>
+      <bonuslp>0</bonuslp>
       <source>SR5</source>
       <page>369</page>
       <trustfund>False</trustfund>
@@ -2757,6 +2807,682 @@ Recherche über Eltern
       <active>False</active>
       <homenode>False</homenode>
     </gear>
+    <gear>
+      <guid>705bfa56-3fb5-47c2-b15a-0b3fb90debd8</guid>
+      <id>b218dbd1-5706-4d9e-a6a7-ab9b658c3acd</id>
+      <name>Glasses</name>
+      <category>Vision Devices</category>
+      <capacity>Rating</capacity>
+      <armorcapacity />
+      <minrating>0</minrating>
+      <maxrating>4</maxrating>
+      <rating>4</rating>
+      <qty>1</qty>
+      <avail>0</avail>
+      <cost>Rating * 100</cost>
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <bonus>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
+      <source>SR5</source>
+      <page>443</page>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children>
+        <gear>
+          <guid>029a4957-9f7b-4be6-a80d-3d0d4d27f293</guid>
+          <id>7fc23c2f-b41a-46b0-9ed7-9dc93986fab3</id>
+          <name>Flare Compensation</name>
+          <category>Vision Enhancements</category>
+          <capacity>[1]</capacity>
+          <armorcapacity>[1]</armorcapacity>
+          <minrating>0</minrating>
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <qty>1</qty>
+          <avail>+1</avail>
+          <cost>250</cost>
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <bonus>
+          </bonus>
+          <wirelessbonus>
+          </wirelessbonus>
+          <source>SR5</source>
+          <page>444</page>
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid />
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes />
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+        </gear>
+        <gear>
+          <guid>176b1578-79ac-43b4-8975-df60c8c01ee2</guid>
+          <id>287c6d58-2217-48b2-9e14-6ba23584939a</id>
+          <name>Low Light</name>
+          <category>Vision Enhancements</category>
+          <capacity>[1]</capacity>
+          <armorcapacity>[1]</armorcapacity>
+          <minrating>0</minrating>
+          <maxrating>0</maxrating>
+          <rating>0</rating>
+          <qty>1</qty>
+          <avail>+4</avail>
+          <cost>500</cost>
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <bonus>
+          </bonus>
+          <wirelessbonus>
+          </wirelessbonus>
+          <source>SR5</source>
+          <page>444</page>
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid />
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes />
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+        </gear>
+        <gear>
+          <guid>52620c8f-bbb8-4f0c-8dd0-4ba72ce6b5f8</guid>
+          <id>588c3193-4298-4a73-b45a-c5f8fd175133</id>
+          <name>Vision Enhancement</name>
+          <category>Vision Enhancements</category>
+          <capacity>[Rating]</capacity>
+          <armorcapacity>[Rating]</armorcapacity>
+          <minrating>0</minrating>
+          <maxrating>3</maxrating>
+          <rating>1</rating>
+          <qty>1</qty>
+          <avail>+(Rating *2)</avail>
+          <cost>Rating * 500</cost>
+          <extra />
+          <bonded>False</bonded>
+          <equipped>True</equipped>
+          <wirelesson>False</wirelesson>
+          <bonus>
+            <limitmodifier>
+              <limit>Mental</limit>
+              <value>Rating</value>
+              <condition>Only for Perception (Visual)</condition>
+            </limitmodifier>
+          </bonus>
+          <wirelessbonus>
+          </wirelessbonus>
+          <source>SR5</source>
+          <page>444</page>
+          <canformpersona />
+          <devicerating />
+          <gearname />
+          <forcedvalue />
+          <matrixcmfilled>0</matrixcmfilled>
+          <matrixcmbonus>0</matrixcmbonus>
+          <parentid />
+          <allowrename>False</allowrename>
+          <children />
+          <location />
+          <notes />
+          <discountedcost>False</discountedcost>
+          <programlimit />
+          <overclocked>None</overclocked>
+          <attack />
+          <sleaze />
+          <dataprocessing />
+          <firewall />
+          <attributearray />
+          <modattack />
+          <modsleaze />
+          <moddataprocessing />
+          <modfirewall />
+          <modattributearray />
+          <canswapattributes>False</canswapattributes>
+          <active>False</active>
+          <homenode>False</homenode>
+        </gear>
+      </children>
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+    </gear>
+    <gear>
+      <guid>c306ddaf-dd97-49c4-b5c7-6cc976d2c64c</guid>
+      <id>0e713b88-ab10-4fed-8373-df0a4d8546cc</id>
+      <name>Microphone, Directional</name>
+      <category>Audio Devices</category>
+      <capacity>Rating</capacity>
+      <armorcapacity>[1]</armorcapacity>
+      <minrating>0</minrating>
+      <maxrating>6</maxrating>
+      <rating>1</rating>
+      <qty>1</qty>
+      <avail>4</avail>
+      <cost>Rating * 50</cost>
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <bonus>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
+      <source>SR5</source>
+      <page>445</page>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+    </gear>
+    <gear>
+      <guid>cf293928-62c1-4c64-aeef-ce708df79834</guid>
+      <id>e97c478c-f10a-494e-98ba-0d9c3076cd73</id>
+      <name>Biomonitor</name>
+      <category>Biotech</category>
+      <capacity />
+      <armorcapacity>[1]</armorcapacity>
+      <minrating>0</minrating>
+      <maxrating>0</maxrating>
+      <rating>0</rating>
+      <qty>1</qty>
+      <avail>3</avail>
+      <cost>300</cost>
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <bonus>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
+      <source>SR5</source>
+      <page>450</page>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+    </gear>
+    <gear>
+      <guid>3b77710c-8819-4659-bc07-7772b5e74bca</guid>
+      <id>8afe5065-5815-4a98-b047-2a7fed85db55</id>
+      <name>Ammo: Taser Dart</name>
+      <category>Ammunition</category>
+      <capacity />
+      <armorcapacity />
+      <minrating>0</minrating>
+      <maxrating>0</maxrating>
+      <rating>0</rating>
+      <qty>100</qty>
+      <avail>3</avail>
+      <costfor>10</costfor>
+      <cost>50</cost>
+      <extra>Tasers</extra>
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <bonus>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
+      <source>SR5</source>
+      <page>434</page>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+    </gear>
+    <gear>
+      <guid>54308017-fd7d-48d7-9959-fda5f80532ff</guid>
+      <id>0025f1c7-45a4-4ec5-a692-e18aab2f97a9</id>
+      <name>Custom Item</name>
+      <category>Custom</category>
+      <capacity />
+      <armorcapacity />
+      <minrating>0</minrating>
+      <maxrating>0</maxrating>
+      <rating>0</rating>
+      <qty>1</qty>
+      <avail>0</avail>
+      <cost>0</cost>
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <bonus>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
+      <source>SR5</source>
+      <page>1</page>
+      <canformpersona />
+      <devicerating />
+      <gearname>Schwarzer Zylinder (Unbekannte Flüßigkeit)</gearname>
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+    </gear>
+    <gear>
+      <guid>cc081acc-206e-41df-8a8a-97a1743641fc</guid>
+      <id>0025f1c7-45a4-4ec5-a692-e18aab2f97a9</id>
+      <name>Obskures Technisches Gerät (Funktionslos)</name>
+      <category>Custom</category>
+      <capacity />
+      <armorcapacity />
+      <minrating>0</minrating>
+      <maxrating>0</maxrating>
+      <rating>0</rating>
+      <qty>1</qty>
+      <avail>0</avail>
+      <cost>0</cost>
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <bonus>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
+      <source>SR5</source>
+      <page>1</page>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+    </gear>
+    <gear>
+      <guid>8db6792f-09ff-4cff-835c-730e16690120</guid>
+      <id>0025f1c7-45a4-4ec5-a692-e18aab2f97a9</id>
+      <name>Soy King Sticker (SammelAlbum Nr.7)</name>
+      <category>Custom</category>
+      <capacity />
+      <armorcapacity />
+      <minrating>0</minrating>
+      <maxrating>0</maxrating>
+      <rating>0</rating>
+      <qty>1</qty>
+      <avail>0</avail>
+      <cost>0</cost>
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <bonus>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
+      <source>SR5</source>
+      <page>1</page>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+    </gear>
+    <gear>
+      <guid>46201e73-9ba7-4f5c-af02-a5ce910912bb</guid>
+      <id>5deb8e1d-98bf-4cd4-9dce-b74d67546a1d</id>
+      <name>Datachip</name>
+      <category>RFID Tags</category>
+      <capacity />
+      <armorcapacity />
+      <minrating>0</minrating>
+      <maxrating>0</maxrating>
+      <rating>0</rating>
+      <qty>6</qty>
+      <avail>0</avail>
+      <costfor>10</costfor>
+      <cost>5</cost>
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <bonus>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
+      <source>SR5</source>
+      <page>440</page>
+      <canformpersona />
+      <devicerating>1</devicerating>
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+    </gear>
+    <gear>
+      <guid>d2d05fea-b9eb-47dc-b07e-981d6ae209e9</guid>
+      <id>778eefae-94ad-4f8c-ad03-8b9039b5c48e</id>
+      <name>Psyche</name>
+      <category>Drugs</category>
+      <capacity />
+      <armorcapacity />
+      <minrating>0</minrating>
+      <maxrating>0</maxrating>
+      <rating>0</rating>
+      <qty>6</qty>
+      <avail>0</avail>
+      <cost>200</cost>
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <bonus>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
+      <source>SR5</source>
+      <page>412</page>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+    </gear>
+    <gear>
+      <guid>a13b8a21-bc74-42a2-b06f-dbac2200b815</guid>
+      <id>ae9c37df-6d82-44c1-aa21-6c87e45e2dc1</id>
+      <name>Medkit</name>
+      <category>Biotech</category>
+      <capacity />
+      <armorcapacity>[5]</armorcapacity>
+      <minrating>0</minrating>
+      <maxrating>6</maxrating>
+      <rating>2</rating>
+      <qty>1</qty>
+      <avail>Rating</avail>
+      <cost>Rating * 250</cost>
+      <extra />
+      <bonded>False</bonded>
+      <equipped>True</equipped>
+      <wirelesson>False</wirelesson>
+      <bonus>
+        <limitmodifier>
+          <limit>Mental</limit>
+          <value>Rating</value>
+          <condition>Only for First Aid and Medicine</condition>
+        </limitmodifier>
+      </bonus>
+      <wirelessbonus>
+      </wirelessbonus>
+      <source>SR5</source>
+      <page>450</page>
+      <canformpersona />
+      <devicerating />
+      <gearname />
+      <forcedvalue />
+      <matrixcmfilled>0</matrixcmfilled>
+      <matrixcmbonus>0</matrixcmbonus>
+      <parentid />
+      <allowrename>False</allowrename>
+      <children />
+      <location />
+      <notes />
+      <discountedcost>False</discountedcost>
+      <programlimit />
+      <overclocked>None</overclocked>
+      <attack />
+      <sleaze />
+      <dataprocessing />
+      <firewall />
+      <attributearray />
+      <modattack />
+      <modsleaze />
+      <moddataprocessing />
+      <modfirewall />
+      <modattributearray />
+      <canswapattributes>False</canswapattributes>
+      <active>False</active>
+      <homenode>False</homenode>
+    </gear>
   </gears>
   <vehicles />
   <metamagics />
@@ -2997,6 +3723,54 @@ Recherche über Eltern
       <order>0</order>
       <notes />
     </improvement>
+    <improvement>
+      <unique>Sichtverbesserung</unique>
+      <target />
+      <improvedname>952bd9e2-13ee-449f-b608-9dd51b4b9713</improvedname>
+      <sourcename>52620c8f-bbb8-4f0c-8dd0-4ba72ce6b5f8</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>Only for Perception (Visual)</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
+      <unique>Medkit</unique>
+      <target />
+      <improvedname>c78df930-5d0d-4c7e-bcb1-ed0116f7837c</improvedname>
+      <sourcename>a13b8a21-bc74-42a2-b06f-dbac2200b815</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>2</val>
+      <rating>0</rating>
+      <exclude />
+      <condition>Only for First Aid and Medicine</condition>
+      <improvementttype>LimitModifier</improvementttype>
+      <improvementsource>Gear</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
   </improvements>
   <mentorspirits />
   <expenses>
@@ -3169,7 +3943,7 @@ Recherche über Eltern
       <guid>833729ab-6371-441f-928c-0d423eeec5e7</guid>
       <date>2018-04-07T22:50:00</date>
       <amount>-2</amount>
-      <reason>Fertigkeit Elektronische Kriegsführung 0 🡒 1</reason>
+      <reason>Fertigkeit Elektronische Kriegsführung 0 -&gt; 1</reason>
       <type>Karma</type>
       <refund>False</refund>
       <undo>
@@ -3199,13 +3973,208 @@ Recherche über Eltern
       <guid>f1f7c87d-43dc-4b31-b89a-db3257d86b83</guid>
       <date>2018-04-07T22:53:43</date>
       <amount>-2</amount>
-      <reason>Fertigkeit Waffenloser Kampf 0 🡒 1</reason>
+      <reason>Fertigkeit Waffenloser Kampf 0 -&gt; 1</reason>
       <type>Karma</type>
       <refund>False</refund>
       <undo>
         <karmatype>AddSkill</karmatype>
         <nuyentype>AddCyberware</nuyentype>
         <objectid>bb119479-8edf-4a27-98bf-fe4e763d4538</objectid>
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>95372f19-d41f-43f4-a57c-260cee30cdb1</guid>
+      <date>2018-04-18T20:14:14</date>
+      <amount>-400</amount>
+      <reason>Gekaufte Ausrüstung Brille</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>705bfa56-3fb5-47c2-b15a-0b3fb90debd8</objectid>
+        <qty>1</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>f7d39006-21f7-4871-85e4-d4f3a5fbf0ca</guid>
+      <date>2018-04-18T20:16:14</date>
+      <amount>-250</amount>
+      <reason>Gekaufte Ausrüstung Blitzkompensation</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>029a4957-9f7b-4be6-a80d-3d0d4d27f293</objectid>
+        <qty>1</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>2bbebd22-f496-4395-a5e8-ce7dc2947060</guid>
+      <date>2018-04-18T20:16:40</date>
+      <amount>-500</amount>
+      <reason>Gekaufte Ausrüstung Restlichtverstärkung</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>176b1578-79ac-43b4-8975-df60c8c01ee2</objectid>
+        <qty>1</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>f6e4b4d1-c682-4d5f-a40b-2d15043d4020</guid>
+      <date>2018-04-18T20:16:54</date>
+      <amount>-500</amount>
+      <reason>Gekaufte Ausrüstung Sichtverbesserung</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>52620c8f-bbb8-4f0c-8dd0-4ba72ce6b5f8</objectid>
+        <qty>1</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>d088880e-5d33-4df8-9ada-9bb52666e4ef</guid>
+      <date>2018-04-18T20:17:23</date>
+      <amount>-50</amount>
+      <reason>Gekaufte Ausrüstung Richtmikrofon</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>c306ddaf-dd97-49c4-b5c7-6cc976d2c64c</objectid>
+        <qty>1</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>21b875e1-3f30-410d-86cd-fc6665cb2cbd</guid>
+      <date>2018-04-18T20:18:28</date>
+      <amount>-300</amount>
+      <reason>Gekaufte Ausrüstung Vitalmonitor</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>cf293928-62c1-4c64-aeef-ce708df79834</objectid>
+        <qty>1</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>e6d86c8c-1f26-4fda-9831-07eadd7978c5</guid>
+      <date>2018-04-18T20:22:36</date>
+      <amount>-500</amount>
+      <reason>Gekaufte Ausrüstung Munition: Taserpfeil</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>3b77710c-8819-4659-bc07-7772b5e74bca</objectid>
+        <qty>100</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>6307003c-6d32-4cb2-92e4-2f7167f25d3c</guid>
+      <date>2018-04-18T20:31:39</date>
+      <amount>0</amount>
+      <reason>Gekaufte Ausrüstung Custom Item</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>54308017-fd7d-48d7-9959-fda5f80532ff</objectid>
+        <qty>1</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>4b6c6f51-8af7-4f97-8987-0b976c6789c6</guid>
+      <date>2018-04-18T20:32:56</date>
+      <amount>0</amount>
+      <reason>Gekaufte Ausrüstung Obskures Technisches Gerät (Funktionslos)</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>cc081acc-206e-41df-8a8a-97a1743641fc</objectid>
+        <qty>1</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>17221091-3591-43ad-9f87-47419cab724d</guid>
+      <date>2018-04-18T20:35:14</date>
+      <amount>0</amount>
+      <reason>Gekaufte Ausrüstung Soy King Sticker (SammelAlbum Nr.7)</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>8db6792f-09ff-4cff-835c-730e16690120</objectid>
+        <qty>1</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>68a5c22e-3ec5-4048-b37c-30ee94bd63f8</guid>
+      <date>2018-04-18T20:39:43</date>
+      <amount>-500</amount>
+      <reason>Gekaufte Ausrüstung Medkit</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>AddGear</nuyentype>
+        <objectid>a13b8a21-bc74-42a2-b06f-dbac2200b815</objectid>
+        <qty>1</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>b9901451-cbb2-4dc9-9e27-22314466cd7c</guid>
+      <date>2018-04-18T22:19:34</date>
+      <amount>-80</amount>
+      <reason>Bierrunde Lokal</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualSubtract</nuyentype>
+        <objectid />
+        <qty>0</qty>
+        <extra />
+      </undo>
+    </expense>
+    <expense>
+      <guid>945d94b1-dd72-4752-b036-f8f77ee26a5f</guid>
+      <date>2018-05-10T00:30:53</date>
+      <amount>3539.17</amount>
+      <reason>Arena Belohnung (Team) + Allgemeine Buchungen</reason>
+      <type>Nuyen</type>
+      <refund>False</refund>
+      <undo>
+        <karmatype>ImproveAttribute</karmatype>
+        <nuyentype>ManualAdd</nuyentype>
+        <objectid />
         <qty>0</qty>
         <extra />
       </undo>
